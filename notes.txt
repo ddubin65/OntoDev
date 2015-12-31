@@ -1,0 +1,20 @@
+All-campus holiday: Martin Luther King Jr. Day, Monday, January 18, 2016 (no classes)
+ Instruction begins: Tuesday, January 19, 2016
+ Spring break: Saturday, March 19 (1 pm) - Sunday, March 28, 2016
+ Last day of instruction: Wednesday, May 4, 2016
+ Reading day: Thursday, May 5, 2016 (no classes)
+ Final exam period: Friday, May 6 - Friday, May 13, 2016
+ Commencement: Sunday, May 15, 2016
+ 
+ 
+ http://rogerdudler.github.io/git-guide/
+ 
+ Spring 2015 Assignment due dates
+ 
+ February 16: Linked Data Assignment 1: Conforming FOAF profile in Turtle/N3 Monday, February 16, 2015, 9:00 AM  
+ Sunday, March 8: LEEP on campus Assignment 2: Serving linked data for humans and non-humans Sunday, February 8, 2015, 5:00 PM 
+ March 30: Using Protege Assignment 3: Domain analysis and proposal in natural language Monday, March 30, 2015, 12:00 AM 
+ April 13: OWL Part 2 Assignment 4: Class, subclass, and property definitions in OWL Monday, April 13, 2015, 11:55 PM 
+ April 27: Expressive power, tractable computations, decidability Assignment 5: OWL Revision 1, Restrictions and inference Monday, April 27, 2015, 11:00 PM 
+ May 10 - May 16 Assignment 6: OWL Revision 2, integration with other class vocabularies Friday, May 15, 2015, 5:00 PM  
+ 

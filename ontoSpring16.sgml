@@ -1,0 +1,487 @@
+<!doctype syllabus system "syllabus.dtd" [
+<!-- <!ENTITY OntoDevbib SYSTEM "ontodev09.bib" NDATA BibTeX> -->
+<!ENTITY % LaTeX "IGNORE">
+<!ENTITY % HTML "IGNORE">
+<![ %LaTeX; [
+<!entity % texentities system "tex_entities.ent">
+%texentities;
+]]>
+<![ %HTML; [
+<!entity % htmlentities system "html_entities.ent">
+%htmlentities;
+]]>
+<!ENTITY week1 "January 25">
+<!ENTITY week2 "February 1"> 
+<!ENTITY week3 "February 8"> 
+<!ENTITY week4 "February 15">
+<!ENTITY week5 "February 22">
+<!ENTITY week6 "February 29">
+<!ENTITY week7 "March 7">
+<!ENTITY week8 "March 14">
+<!ENTITY week9 "March 21"> <!-- Spring break -->
+<!ENTITY week10 "March 28"> 
+<!ENTITY week11 "April 4">
+<!ENTITY week12 "April 11">
+<!ENTITY week13 "April 18">
+<!ENTITY week14 "April 25"> 
+<!ENTITY week15 "May 2"> <!-- Last regular instruction meeting -->
+<!ENTITY week16 "May 9">
+<!ENTITY ProjectDue "May 9">
+<!ENTITY ExamWeek "Week of May 9">
+<!ENTITY OnCampus "March 8">
+<!ENTITY Text1 "Heath and Bizer">
+<!ENTITY Text2 "Allemang and Hendler">
+]>
+<syllabus>
+  <head>
+    <course>
+      <cname>Ontology Development</cname> <cnumber>LIS590</cnumber>
+      <dept>Graduate School of Library and Information Science</dept>
+      <term>Spring 2016</term>
+    </course>
+    <sections>
+      <section>
+         <secid>Section OD
+         <when>Monday, 5:30 PM&ndash;7:30 PM
+         <where>Room 341, LIS Building
+      </section>
+   </sections>
+    <prof>
+      <pname>David Dubin
+      <poffice>LIS 330
+	  <phours>Tuesdays 1:00&ndash;4:00pm, and by appointment (face to face is your instructor's preferred contact method).
+      <pphone>217&ndash;244&ndash;3275 (217&ndash;BIG&ndash;EARL)
+      <pemail>ddubin
+      <pwww><weblink url="http://people.lis.illinois.edu/~ddubin/">http://people.lis.illinois.edu/&tilde;ddubin/</weblink>
+   </prof>
+</head>
+<preamble>
+   <p>This document is Copyright &copy; 2010, 2016 by David Dubin and
+the Trustees of the University of Illinois. In addition to this
+syllabus, this course is governed by the rules and guidelines set
+forth in the <weblink
+url="http://www.illinois.edu/admin_manual/code/">Code of Policies and
+Regulations Applying to All Students</weblink> and <em type="title">A
+Handbook for Graduate Students and Advisers</em> which graduate
+students receive upon admission to the program. Students should also
+consult, and take to heart, the <em type="title">Professional
+Guidelines and Codes of Ethics for Library and Information Science
+Professionals</em> available from the GSLIS main office. <p>This
+syllabus is provided to UIUC students as part of the materials for a
+particular class. However, it may be copied, redistributed, and
+modified under the terms of the <weblink
+url="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons
+Attribution-ShareAlike license</weblink> (Version 2.0). The text of
+that license is available on the Worldwide Web at creativecommons.org.
+Resources that are linked to or referenced from within this syllabus
+(e.g., readings, outlines, discussions) are <em>not</em> covered by
+the license, unless specifically labeled as such.</p>
+</preamble>
+<reqtexts>
+    <reading>
+      <author>Tom Heath and Christian Bizer</author>
+      <title>Linked Data: Evolving the Web into a Global Data Space</title>
+      <publ>Morgan and Claypool Publishers</publ>
+      <year>2011</year>
+    </reading>
+    <reading>
+      <author>Dean Allemang and James Hendler</author>
+      <title>Semantic Web for the Working Ontologist: Effective
+Modeling in RDFS and OWL</title>
+      <publ>Morgan Kaufmann</publ>
+      <year>2011</year>
+    </reading>
+    <reading>
+      <author>Natalya F. Noy and Deborah L. McGuinness</author>
+      <title>Ontology Development 101: A Guide to Creating Your First
+Ontology</title>
+      <publ>Stanford Knowledge Systems Laboratory</publ>
+      <year>2001</year>
+    </reading>
+  </reqtexts>
+  <newpage>
+  <sylsec id="library">
+    <sectl>Library Resources</sectl>
+    <p>Library resources and information are available at the
+following online addresses:</p>
+<![ %HTML; [<itemize>
+<item><weblink url="http://www.library.illinois.edu/">University of Illinois Library</weblink></item>
+<item><weblink url="http://www.library.illinois.edu/lsx/">Library and Information Science Virtual Library</weblink></item>
+<item><weblink url="http://search.grainger.uiuc.edu/linker/">Journal and Article Locator</weblink></item>
+<item><weblink url="mailto:lislib@library.illinois.edu">LIS Librarian (email: lislib@library.illinois.edu, phone: 217-333-3804)</weblink></item>
+</itemize>]]><![ %LaTeX; [<itemize>
+<item>University of Illinois Library: http://www.library.illinois.edu/</item>
+<item>Library and Information Science Virtual Library: http://www.library.illinois.edu/lsx/</item>
+<item>Journal and Article Locator: http://search.grainger.uiuc.edu/linker/</item>
+<item>LIS Librarian (email: lislib@library.illinois.edu, phone: 217-333-3804)</item>
+</itemize>]]>
+  </sylsec>
+  <sylsec id="scope">
+    <sectl>Course Description</sectl>
+    <p>An introduction to formal ontology focusing on development and
+implementation issues and contemporary ontology software tools and
+languages. The ontology editor Protege will be used throughout and the
+representation of ontologies in W3C semantic web languages RDF(S) and
+OWL will be emphasized.</p>
+  <sylsec id="syllabus">
+    <sectl>This Syllabus</sectl> 
+    <p>The official syllabus for this course is the SGML version that
+is linked off the class web page. Expressions of the syllabus in other
+formats are derived from the SGML version. The current SGML version
+should be consulted to resolve any inconsistencies among other
+renditions.</p>
+  </sylsec>
+  <sylsec id="inclusion">
+    <sectl>Statement of Inclusion</sectl>
+    <p>The following expression is adopted from the Chancellor's
+Commitment Statement of November 2012:
+<![ %HTML; [(<weblink url="http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt">web link</weblink>)]]></p>
+    <p>As the state's premier public university, the University of Illinois
+at Urbana-Champaign's core mission is to serve the interests of the
+diverse people of the state of Illinois and beyond. The institution
+thus values inclusion and a pluralistic learning and research
+environment, one which we respect the varied perspectives and lived
+experiences of a diverse community and global workforce. We support
+diversity of world views, histories, and cultural knowledge across a
+range of social groups including race, ethnicity, gender identity,
+sexual orientation, abilities, economic class, religion, and their
+intersections.</p>
+    <sylsubsec>
+      <subtl>Inclusiveness as a topic in LIS590-OD</subtl>
+      <p>The models and theories we cover in this class frame the way
+we understand resources, our professional roles with respect to their
+stewardship, and the access and preservation problems to which our
+efforts are directed. Under the right circumstances they can help make
+our services more inclusive, as we've seen, for example, with the
+digital encoding of writing systems and attention to web content
+accessibility issues. But knowledge organization systems can also
+marginalize, as reforms of library subject and medical classifications
+ have shown. The topics for our class meetings are
+selected with the aim of encouraging reflection and discussion, but
+those choices are not socially or culturally neutral. Where we may be
+missing opportunities to align the class content and conduct with the
+values expressed in the inclusion statement, students are encouraged
+to call classmate and instructor attention to those issues.</p>
+    </sylsubsec>
+  </sylsec>
+  <sylsec id="disability">
+    <sectl>Disability Statement</sectl>
+    <p>To obtain disability-related academic adjustments and/or auxiliary
+aids, students with disabilities must contact the course instructor
+and the Disability Resources and Educational Services (DRES) as soon
+as possible. To contact DRES you may visit 1207 S. Oak St., Champaign,
+call 217-333-4603 (V/TTY), or e-mail a message to disability@uiuc.edu.</p>
+  </sylsec>
+  <newpage>
+  <sylsec id="grading">
+    <sectl>Basis for Grading and Evaluation</sectl>
+    <p>The most important standards for success in a class like this
+one are the educational goals that students bring to the class. Your
+instructor hopes that the activities, assignments, and presentations
+planned for this semester will be instrumental in your achieving the
+goals you set for yourself. Each exercise and assignment has been
+selected to provide an experience that will foster your own learning.
+Do not think that grading and evaluative feedback are meant as
+assesments of your success or failure in the class: they are provided
+as an incentive to engage with the material to the best of your
+ability, and as a diagnostic, to find you're not getting the benefits
+that the assignments should provide.
+</p>
+<p>Final grades will be calculated as follows:
+    <itemize>
+      <item>Graded homework assignments 80&percnt;</item>
+      <item>Class Participation: 20&percnt;</item>
+    </itemize>
+    <sylsubsec id="feeback">
+      <subtl>Evaluative and constructive feedback</subtl> <p>Students
+      are entitled to both evaluative and constructive feedback on the
+      assignments. Evaluative feedback reports how well a completed
+      assignment satisfied the requirements for a grade.  Constructive
+      feedback provides more detailed criticism of the work, and
+      suggestions for improvement.</p> <p>It is the policy in this
+      class to provide evaluative feedback privately to students when
+      an assignment is returned after grading. However, constructive
+      feedback will be provided in a public forum (discussions in
+      class or on message boards)</p>
+    <sylsubsec id="honesty">
+      <subtl>On Adapting the Work of Others</subtl>
+      <p>Criteria for grading homework assignments include (but are
+not limited to) creativity and the amount of original work
+demonstrated in the assignment. However, students are permitted to use
+and adapt the work of others, provided that the following guidelines
+are followed:
+<itemize>
+<item>Use of other people's material must not infringe the copyright
+of the original author, nor violate the terms of any licensing
+agreement. Know and respect the principles of fair use with respect to
+copyrighted material.
+<item>Students must scrupulously attribute the original source and
+author of whatever material has been adapted for the assignment.
+Summarize (e.g. using source code comments) the changes or adaptations
+that have been made. Make  plain how much of the assignment represents
+original work. 
+</itemize>
+    </sylsubsec>
+    <sylsubsec>
+      <subtl>Submitting Assignments to the Instructor</subtl> 
+      <p>All assignments must be submitted in machine readable form.
+The instructors will discuss detailed requirements for file naming,
+packaging, and submission for each assignment.</p>
+    </sylsubsec>
+  <sylsubsec>
+    <subtl>Graded Assignments</subtl>
+    <p>There will be six graded assignments:</p>
+    <itemize>
+	  <item>Conforming FOAF profile in Turtle/N3</item>
+	  <item>Serving linked data for humans and non-humans</item>
+	  <item>Domain analysis and proposal in natural language</item>
+	  <item>Class, subclass, and property definitions in OWL</item>
+	  <item>OWL Revision 1: Restrictions and inference</item>
+	  <item>OWL Revision 2, integration with other class vocabularies</item>
+    </itemize>
+      </sylsubsec>
+      <sylsubsec id="asgt1">
+	<subtl>Conforming FOAF profile in Turtle/N3</subtl>
+	<p>Create a syntactically valid RDF description of yourself
+using the FOAF vocabulary, and any other RDF vocabularies that you
+decide are useful for this assignment. Select a URI for yourself that
+you are authorized to create and administer, such as one in a
+web-accessible space where you are able to put resources online. 
+</p>
+	<p>Express the description in the turtle subset of the N3 RDF
+serialization syntax, and use a validating parser of your choice to
+confirm that what you have written is conforming RDF. Submit the
+description along with a short description of any interesting
+issues or difficulties you encountered and which parser or validation
+service you used to check the syntax.
+</p>
+	<p>Evaluation criteria for this assignment are based only on
+technical and syntactic correctness, but your instructor will try to
+provide feedback on semantic and social issues where appropriate.</p>
+      </sylsubsec>
+      <sylsubsec id="asgt2">
+	<subtl>Serving linked data for humans and non-humans</subtl>
+	<p>Publish the RDF description of yourself from assignment 1
+at a web-accessible address, and make the URI denoting yourself work
+according to linked data principles:</p>
+	<itemize>
+	  <item>An RDF validator directed to the URI should receive a
+syntactically correct RDF description.</item>
+	  <item>A Mozilla-compatible browser directed to the URI
+should receive an HTML page describing you.</item>
+	</itemize>
+	<p>You can change the URI  denoting yourself if you need to.
+Submit a short written report on this assignment (1 page) that
+includes the URI.</p>
+      </sylsubsec>
+      <sylsubsec id="asgt3">
+	<subtl>Domain analysis and proposal in natural
+language</subtl>
+	<p>Prepare a written analysis of the domain you have chosen
+that includes:</p>
+	<itemize>
+	  <item>Scope of the proposed area (1-2 pages)</item>
+	  <item>Relationships to definitions in current GSLIS
+vocabulary (including things that should be there but aren't)</item>
+	  <item>Existing published vocabularies that are candidates
+for extension (FOAF, bibo, schema.org, etc.)</item>
+	  <item>Suggestive RDF illustrations using the example.com
+domain.</item>
+	  <item>Ideas for classes and properties.</item>
+	</itemize>
+      </sylsubsec>
+      <sylsubsec id="asgt4">
+	<subtl>Class, subclass, and property definitions in
+OWL</subtl>
+	<p>Publish an OWL vocabulary based on your domain analysis as
+linked data. URIs for any entity in your schema should resolve by
+default to the URL for your RDF file in either turtle or rdf/xml. You
+need not provide an html counterpart for humans, but do use annotation
+properties like label and comment to document your definitions.</p>
+	<itemize>
+	  <item>Import the GSLIS ontology and any others on which you
+wish to base subclasses or subproperties.</item>
+	  <item>Define range and domain constraints for the properties.</item>
+	  <item>Define individual instances for testing purposes, and
+create property assertions for them that exercise each of your
+properties at least once.</item>
+	</itemize>
+	<p>Confirm that your ontology can be loaded via a URI into
+Protege. Submit the RDF source file and post the URI for your
+vocabulary to the class forum.</p>
+      </sylsubsec>
+      <sylsubsec id="asgt5">
+	<subtl>OWL Revision 1: Restrictions and inference</subtl>
+	<p>In the last assignment you defined individual instances as
+part of your vocabulary to illustrate your property and class
+definitions. For this assignment, propose an information management
+strategy for your vocabulary that distinguishes between facts that
+should be asserted and facts that should be deduced. For example, in
+the current GSLIS ontology facts concerning job appointments are
+asserted (appointee, appointing organization, job title), but status
+as a GSLIS faculty member is deduced. Prepare and submit a written
+explanation of your strategy. It should be between one half page and
+one page in length.</p>
+	<p>Revise your vocabulary and your instance illustrations so
+that when facts are asserted in accordance with your strategy, the
+appropriate deduced facts are entailed by your class and property
+definitions (just as with the illustrations included in gslis.ttl). I
+will confirm the deductions using the Hermit plugin that accompanies
+our Protege installation.</p>
+	<p>At least one of your class definitions should employ either
+an owl:allValuesFrom (&Text2;, page 227) or an owl:someValuesFrom
+(&Text2;, page 225) restriction. The remaining deductions can be
+accomplished via as many or as few of the following as you wish:</p>
+	<itemize>
+	  <item><tt>owl:allValuesFrom</tt></item>
+	  <item><tt>owl:someValuesFrom</tt></item>
+	  <item><tt>owl:hasValue</tt></item>
+	  <item><tt>rdfs:subClassOf</tt></item>
+	  <item><tt>rdfs:subPropertyOf</tt></item>
+	  <item><tt>owl:inverseOf</tt></item>
+	  <item><tt>rdfs:range</tt></item>
+	  <item><tt>rdfs:domain</tt></item>
+	</itemize>
+	<p>Post an announcement of your revision to the discussion
+forum, and submit a copy of the revised vocabulary. The same validity
+and linked data requirements apply as with Assignment 4: URIs for
+entities in your schema should resolve to the URL for your
+vocabulary's RDF, but you need not provide an html counterpart for
+humans. One additional requirement is that in addition to being
+syntactically valid, your vocabulary must be logically consistent.
+That is to say, your declarations should not cause the Hermit reasoner
+to report that your model is inconsistent.</p>
+      </sylsubsec>
+      <sylsubsec id="asgt6">
+	<subtl>OWL Revision 2: integration with other class
+vocabularies</subtl>
+	<p>Make one final revision to your OWL vocabulary, and
+document it with 1-2 pages of natural language submitted along
+with the RDF file. Make at least two changes or additions that make
+your definitions better integrated with one or more classmates'
+vocabularies. Aim for one change (to your vocabulary) that
+accommodates the needs of someone else, and one change (to your
+vocabulary) that makes it easier or possible for you to use
+a classmate's vocabulary. Include at least two illustrative RDF
+statements: one that uses instances of your classmate's OWL class and
+one that uses a property imported from your classmate's
+vocabulary.</p>
+      </sylsubsec>
+    <sylsubsec id="participation">
+      <subtl>Class Participation</subtl>
+      <p>The class participation grade is based on consistent
+attendance, contribution to in-class and/or online discussions, and
+providing assistance to classmates outside of class. Please alert the
+instructor if a classmate has been of help to you outside of
+class.</p>
+    </sylsubsec>
+  </sylsec>
+  <newpage>
+  <chronlist id="calendar"> 
+    <cltitle>Semester Outline</cltitle>
+    <chronpart id="session1">
+      <cptitle>Introduction to the class</cptitle>
+      <dates>&week1;</dates>
+      <topics>Ontologies, Linked Open Data</topics>
+      <inclass>
+	<readings>Syllabus</readings>
+      </inclass>
+    <chronpart id="session2">
+      <cptitle>Descriptions and the RDF Model</cptitle>
+      <dates>&week2;</dates>
+      <topics>RDF graphs and serialization</topics>
+      <inclass>
+	<readings>&Text2; chapters 1&ndash;3</readings>
+    <chronpart id="session3">
+      <cptitle>RDF Serialization</cptitle>
+      <dates>&week3;</dates>
+      <inclass>
+	<readings>RDF Primer, Turtle version</readings>
+      </inclass>
+    </chronpart>
+    <chronpart id="session4">
+      <cptitle>Linked Data</cptitle>
+      <dates>&week4;</dates>
+      <inclass>
+	<readings>&Text1;</readings>
+    <chronpart id="session5">
+      <cptitle>Application Architecture 1</cptitle>
+      <dates>&week5;</dates>
+      <inclass>
+	<readings>Best Practice Recipes for Publishing RDF Vocabularies; .htaccess syntax guide</readings>
+    <chronpart id="session6">
+      <cptitle>Application Architecture 2</cptitle>
+      <dates>&week6;</dates>
+     <inclass>
+	<readings>&Text2; chapters 4&ndash;6</readings>
+    </chronpart>
+    <chronpart id="session7"> 
+      <cptitle>LEEP on campus</cptitle>
+      <dates>&OnCampus;</dates> 
+      <topics>RDF Schema</topics>
+      <inclass>
+	<readings>&Text2; chapters 7&ndash;8</readings>
+      <required>
+	<req>
+	  <type>Group exercise: choosing inter-linked domains for remaining assignments.</type>
+	  <due>Afternoon</due>
+	</req>
+	<req>
+	  <type>Group exercise: putting FOAF profiles online as linked data</type>
+	  <due>Morning</due>
+	</req>
+      </required>
+    </chronpart>
+    <chronpart id="session8">
+      <cptitle>RDFS vs. SKOS</cptitle>
+      <dates>&week8;</dates>
+      <inclass>
+	<readings>&Text2; chapters 9&ndash;10</readings>
+    <chronpart id="session9">
+      <cptitle>Spring Break: no meeting</cptitle>
+      <dates>&week9;</dates>
+    <chronpart id="session10">
+      <cptitle>Using Protege</cptitle>
+      <dates>&week10;</dates>
+      <topics></topics>
+      <inclass>
+	<readings>Protege Desktop User Documentation</readings>
+    <chronpart id="session11">
+      <cptitle>OWL Part 1</cptitle>
+      <dates>&week11;</dates>
+      <inclass>
+	<readings>&Text2;, chapter 11; Noy and McGuineness</readings>
+    </chronpart>
+    <chronpart id="session12">
+      <cptitle>OWL Part 2</cptitle>
+      <dates>&week12;</dates>
+      <inclass>
+	<readings>&Text2;, chapters 12&ndash;13</readings>
+      </inclass>
+    </chronpart>
+    <chronpart id="session13">
+      <cptitle>Cooperation and interoperability</cptitle>
+      <dates>&week13;</dates>
+      <topics></topics>
+      <inclass>
+	<readings>&Text2;, chapter 14</readings>
+    <chronpart id="session14">
+      <cptitle>Expressive power, tractable computations, decidability</cptitle>
+           <dates>&week14;</dates>
+	<inclass>
+	  <readings>&Text2;, chapter 15</readings>
+	</inclass>
+    </chronpart>
+    <chronpart id="session15">
+      <cptitle>Topical Wrapup</cptitle>
+      <dates>&week15;</dates>
+      <inclass>
+	<readings>&Text2;, chapter 16</readings>
+      </inclass>
+    </chronpart>
+ </chronlist>
+<!--  <bibsec>
+    <bsectl>Reading Assignments</bsectl>
+    <publist title="Readings Assignments" database="OntoDevbib">
+  </bibsec> -->
+</syllabus>
