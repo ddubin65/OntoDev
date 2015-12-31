@@ -37,6 +37,13 @@
 <!ENTITY OnCampus "March 8">
 <!ENTITY Text1 "Heath and Bizer">
 <!ENTITY Text2 "Allemang and Hendler">
+<!ENTITY homework "https://courses.lis.illinois.edu/mod/assign/view.php?id=">
+<!ENTITY as1 "230696">
+<!ENTITY as2 "230697">
+<!ENTITY as3 "230698">
+<!ENTITY as4 "230699">
+<!ENTITY as5 "230700">
+<!ENTITY as6 "230701">
 ]>
 <syllabus>
   <head>
