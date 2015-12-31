@@ -18,3 +18,15 @@ All-campus holiday: Martin Luther King Jr. Day, Monday, January 18, 2016 (no cla
  April 27: Expressive power, tractable computations, decidability Assignment 5: OWL Revision 1, Restrictions and inference Monday, April 27, 2015, 11:00 PM 
  May 10 - May 16 Assignment 6: OWL Revision 2, integration with other class vocabularies Friday, May 15, 2015, 5:00 PM  
  
+ Spring 22016 URLs:
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230696 (asgt1)
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230697 (asgt2)
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230698 (asgt3)
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230699 (asgt4)
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230700 (asgt5)
+ https://courses.lis.illinois.edu/mod/assign/view.php?id=230701 (asgt6)
+ 
+ 
+ 
+ 
+ 

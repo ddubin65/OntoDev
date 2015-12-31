@@ -14,18 +14,24 @@
 <!ENTITY week2 "February 1"> 
 <!ENTITY week3 "February 8"> 
 <!ENTITY week4 "February 15">
+<!ENTITY asgt1due "February 15"> <!-- week 4 -->
 <!ENTITY week5 "February 22">
 <!ENTITY week6 "February 29">
 <!ENTITY week7 "March 7">
+<!ENTITY asgt2due "March 7"> <!-- week 7 -->
 <!ENTITY week8 "March 14">
 <!ENTITY week9 "March 21"> <!-- Spring break -->
 <!ENTITY week10 "March 28"> 
+<!ENTITY asgt3due "March 28"> <!-- week 10 -->
 <!ENTITY week11 "April 4">
 <!ENTITY week12 "April 11">
+<!ENTITY asgt4due "April 11"> <!-- week 12 -->
 <!ENTITY week13 "April 18">
 <!ENTITY week14 "April 25"> 
+<!ENTITY asgt5due "April 25">  <!-- week 14 -->
 <!ENTITY week15 "May 2"> <!-- Last regular instruction meeting -->
 <!ENTITY week16 "May 9">
+<!ENTITY asgt6due "May 9"> <!-- week 16 -->
 <!ENTITY ProjectDue "May 9">
 <!ENTITY ExamWeek "Week of May 9">
 <!ENTITY OnCampus "March 8">
