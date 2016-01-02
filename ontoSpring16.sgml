@@ -44,6 +44,9 @@
 <!ENTITY as4 "230699">
 <!ENTITY as5 "230700">
 <!ENTITY as6 "230701">
+<!ENTITY gitguide "http://rogerdudler.github.io/git-guide/">
+<!ENTITY text1URL "http://dx.doi.org/10.2200/S00334ED1V01Y201102WBE001">
+<!ENTITY text2URL "http://www.sciencedirect.com.proxy2.library.illinois.edu/science/book/9780123859655">
 ]>
 <syllabus>
   <head>
