@@ -430,7 +430,7 @@ class.</p>
     </chronpart>
     <chronpart id="session7"> 
       <cptitle>LEEP on campus</cptitle>
-      <dates>&OnCampus;</dates> 
+      <dates>&week7;</dates> 
       <topics>RDF Schema</topics>
       <inclass>
 	<readings>&Text2; chapters 7&ndash;8</readings>
