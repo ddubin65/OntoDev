@@ -30,3 +30,21 @@ All-campus holiday: Martin Luther King Jr. Day, Monday, January 18, 2016 (no cla
  http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.5085&rep=rep1&type=pdf
  http://dx.doi.org/10.1.1.136.5085
  
+ Chancellor link no longer valid.
+ Need a link to the .htaccess syntax guide
+ http://www.htaccess-guide.com/
+ Need a link for the RDF primer, turtle version
+ http://www.w3.org/TR/rdf11-primer/
+ Need a link for Protege online documentation
+ http://protegewiki.stanford.edu/wiki/ProtegeDesktopUserDocs
+ Need a link to the OntSpring16 SGML syllabus
+ Add a readings and resources section
+ Link for Best Practice Recipes for Publishing RDF Vocabularies
+ http://www.w3.org/TR/swbp-vocab-pub/
+ 
+ Can drop on-campus group exercises
+ Link to the SKOS primer.
+ http://www.w3.org/TR/skos-primer/
+ Session on schemas, not LEEP
+ 
+ 
