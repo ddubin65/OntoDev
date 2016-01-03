@@ -47,6 +47,7 @@
 <!ENTITY gitguide "http://rogerdudler.github.io/git-guide/">
 <!ENTITY text1URL "http://dx.doi.org/10.2200/S00334ED1V01Y201102WBE001">
 <!ENTITY text2URL "http://www.sciencedirect.com.proxy2.library.illinois.edu/science/book/9780123859655">
+<!ENTITY Ont101URL "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.5085&rep=rep1&type=pdf">
 ]>
 <syllabus>
   <head>
@@ -96,21 +97,21 @@ the license, unless specifically labeled as such.</p>
 <reqtexts>
     <reading>
       <author>Tom Heath and Christian Bizer</author>
-      <title>Linked Data: Evolving the Web into a Global Data Space</title>
+      <title><weblink url="&text1URL;">Linked Data: Evolving the Web into 
+	  a Global Data Space</weblink></title>
       <publ>Morgan and Claypool Publishers</publ>
       <year>2011</year>
     </reading>
     <reading>
       <author>Dean Allemang and James Hendler</author>
-      <title>Semantic Web for the Working Ontologist: Effective
-Modeling in RDFS and OWL</title>
+      <title><weblink url="&text2URL;">Semantic Web for the Working Ontologist: Effective
+Modeling in RDFS and OWL</weblink></title>
       <publ>Morgan Kaufmann</publ>
       <year>2011</year>
     </reading>
     <reading>
       <author>Natalya F. Noy and Deborah L. McGuinness</author>
-      <title>Ontology Development 101: A Guide to Creating Your First
-Ontology</title>
+      <title><weblink url="&Ont101URL;">Ontology Development 101: A Guide to Creating Your First Ontology</weblink></title>
       <publ>Stanford Knowledge Systems Laboratory</publ>
       <year>2001</year>
     </reading>
@@ -248,16 +249,19 @@ packaging, and submission for each assignment.</p>
     <subtl>Graded Assignments</subtl>
     <p>There will be six graded assignments:</p>
     <itemize>
-	  <item>Conforming FOAF profile in Turtle/N3</item>
-	  <item>Serving linked data for humans and non-humans</item>
-	  <item>Domain analysis and proposal in natural language</item>
-	  <item>Class, subclass, and property definitions in OWL</item>
-	  <item>OWL Revision 1: Restrictions and inference</item>
-	  <item>OWL Revision 2, integration with other class vocabularies</item>
+	  <item>Conforming FOAF profile in Turtle/N3 (due &asgt1due;).</item>
+	  <item>Serving linked data for humans and non-humans (due &asgt2due;).</item>
+	  <item>Domain analysis and proposal in natural language (due &asgt3due;).</item>
+	  <item>Class, subclass, and property definitions in OWL (due &asgt4due;).</item>
+	  <item>OWL Revision 1: Restrictions and inference (due &asgt5due;).</item>
+	  <item>OWL Revision 2, integration with other class vocabularies (due &asgt6due;).</item>
     </itemize>
       </sylsubsec>
       <sylsubsec id="asgt1">
 	<subtl>Conforming FOAF profile in Turtle/N3</subtl>
+      <p>This assignment is due &asgt1due;. 
+<![ %HTML; [(<weblink url="&homework;&as1;">upload link</weblink>)]]>
+</p> 
 	<p>Create a syntactically valid RDF description of yourself
 using the FOAF vocabulary, and any other RDF vocabularies that you
 decide are useful for this assignment. Select a URI for yourself that
@@ -277,6 +281,9 @@ provide feedback on semantic and social issues where appropriate.</p>
       </sylsubsec>
       <sylsubsec id="asgt2">
 	<subtl>Serving linked data for humans and non-humans</subtl>
+      <p>This assignment is due &asgt2due;. 
+<![ %HTML; [(<weblink url="&homework;&as2;">upload link</weblink>)]]>
+</p> 
 	<p>Publish the RDF description of yourself from assignment 1
 at a web-accessible address, and make the URI denoting yourself work
 according to linked data principles:</p>
@@ -293,6 +300,9 @@ includes the URI.</p>
       <sylsubsec id="asgt3">
 	<subtl>Domain analysis and proposal in natural
 language</subtl>
+      <p>This assignment is due &asgt3due;. 
+<![ %HTML; [(<weblink url="&homework;&as3;">upload link</weblink>)]]>
+</p> 
 	<p>Prepare a written analysis of the domain you have chosen
 that includes:</p>
 	<itemize>
@@ -309,6 +319,9 @@ domain.</item>
       <sylsubsec id="asgt4">
 	<subtl>Class, subclass, and property definitions in
 OWL</subtl>
+      <p>This assignment is due &asgt4due;. 
+<![ %HTML; [(<weblink url="&homework;&as4;">upload link</weblink>)]]>
+</p> 
 	<p>Publish an OWL vocabulary based on your domain analysis as
 linked data. URIs for any entity in your schema should resolve by
 default to the URL for your RDF file in either turtle or rdf/xml. You
@@ -328,6 +341,9 @@ vocabulary to the class forum.</p>
       </sylsubsec>
       <sylsubsec id="asgt5">
 	<subtl>OWL Revision 1: Restrictions and inference</subtl>
+      <p>This assignment is due &asgt5due;. 
+<![ %HTML; [(<weblink url="&homework;&as5;">upload link</weblink>)]]>
+</p> 
 	<p>In the last assignment you defined individual instances as
 part of your vocabulary to illustrate your property and class
 definitions. For this assignment, propose an information management
@@ -371,6 +387,9 @@ to report that your model is inconsistent.</p>
       <sylsubsec id="asgt6">
 	<subtl>OWL Revision 2: integration with other class
 vocabularies</subtl>
+      <p>This assignment is due &asgt6due;. 
+<![ %HTML; [(<weblink url="&homework;&as6;">upload link</weblink>)]]>
+</p> 
 	<p>Make one final revision to your OWL vocabulary, and
 document it with 1-2 pages of natural language submitted along
 with the RDF file. Make at least two changes or additions that make
