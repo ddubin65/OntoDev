@@ -48,6 +48,13 @@
 <!ENTITY text1URL "http://dx.doi.org/10.2200/S00334ED1V01Y201102WBE001">
 <!ENTITY text2URL "http://www.sciencedirect.com.proxy2.library.illinois.edu/science/book/9780123859655">
 <!ENTITY Ont101URL "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.5085&rep=rep1&type=pdf">
+
+<!ENTITY htac "http://www.htaccess-guide.com/">
+<!ENTITY rdf " http://www.w3.org/TR/rdf11-primer/">
+<!ENTITY protege "http://protegewiki.stanford.edu/wiki/ProtegeDesktopUserDocs">
+<!ENTITY bprac "http://www.w3.org/TR/swbp-vocab-pub/">
+<!ENTITY skos "http://www.w3.org/TR/skos-primer/">
+
 ]>
 <syllabus>
   <head>
@@ -152,7 +159,6 @@ renditions.</p>
     <sectl>Statement of Inclusion</sectl>
     <p>The following expression is adopted from the Chancellor's
 Commitment Statement of November 2012:
-<![ %HTML; [(<weblink url="http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt">web link</weblink>)]]></p>
     <p>As the state's premier public university, the University of Illinois
 at Urbana-Champaign's core mission is to serve the interests of the
 diverse people of the state of Illinois and beyond. The institution
@@ -431,7 +437,8 @@ class.</p>
       <cptitle>RDF Serialization</cptitle>
       <dates>&week3;</dates>
       <inclass>
-	<readings>RDF Primer, Turtle version</readings>
+	<readings><weblink url="&rdf;">RDF Primer;</weblink> 
+	          <weblink url="&gitguide;">Git documentation</weblink></readings>
       </inclass>
     </chronpart>
     <chronpart id="session4">
@@ -443,7 +450,8 @@ class.</p>
       <cptitle>Application Architecture 1</cptitle>
       <dates>&week5;</dates>
       <inclass>
-	<readings>Best Practice Recipes for Publishing RDF Vocabularies; .htaccess syntax guide</readings>
+	<readings><weblink url="&bprac;">Best Practice Recipes for Publishing RDF Vocabularies;</weblink>
+              <weblink url="&htac;">.htaccess syntax guide</weblink></readings>
     <chronpart id="session6">
       <cptitle>Application Architecture 2</cptitle>
       <dates>&week6;</dates>
@@ -451,27 +459,18 @@ class.</p>
 	<readings>&Text2; chapters 4&ndash;6</readings>
     </chronpart>
     <chronpart id="session7"> 
-      <cptitle>LEEP on campus</cptitle>
+      <cptitle>Vocabulary schemas</cptitle>
       <dates>&week7;</dates> 
       <topics>RDF Schema</topics>
       <inclass>
 	<readings>&Text2; chapters 7&ndash;8</readings>
-      <required>
-	<req>
-	  <type>Group exercise: choosing inter-linked domains for remaining assignments.</type>
-	  <due>Afternoon</due>
-	</req>
-	<req>
-	  <type>Group exercise: putting FOAF profiles online as linked data</type>
-	  <due>Morning</due>
-	</req>
-      </required>
     </chronpart>
     <chronpart id="session8">
       <cptitle>RDFS vs. SKOS</cptitle>
       <dates>&week8;</dates>
       <inclass>
-	<readings>&Text2; chapters 9&ndash;10</readings>
+	<readings>&Text2; chapters 9&ndash;10; 
+	          <weblink url="&skos;">SKOS primer</weblink></readings>
     <chronpart id="session9">
       <cptitle>Spring Break: no meeting</cptitle>
       <dates>&week9;</dates>
@@ -480,12 +479,13 @@ class.</p>
       <dates>&week10;</dates>
       <topics></topics>
       <inclass>
-	<readings>Protege Desktop User Documentation</readings>
+	<readings><weblink url="&protege;">Protege Desktop User Documentation</weblink></readings>
     <chronpart id="session11">
       <cptitle>OWL Part 1</cptitle>
       <dates>&week11;</dates>
       <inclass>
-	<readings>&Text2;, chapter 11; Noy and McGuineness</readings>
+	<readings>&Text2;, chapter 11; 
+	        <weblink url="&Ont101URL;">Noy and McGuineness</weblink></readings>
     </chronpart>
     <chronpart id="session12">
       <cptitle>OWL Part 2</cptitle>
@@ -515,7 +515,13 @@ class.</p>
       </inclass>
     </chronpart>
  </chronlist>
-<!--  <bibsec>
+   <sylsec id="resources">
+    <sectl>Resources</sectl>
+    <itemize>
+	  <item></item>
+	</itemize>
+   </sylsec>
+	  <!--  <bibsec>
     <bsectl>Reading Assignments</bsectl>
     <publist title="Readings Assignments" database="OntoDevbib">
   </bibsec> -->
