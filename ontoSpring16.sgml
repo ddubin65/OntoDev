@@ -48,7 +48,7 @@
 <!ENTITY text1URL "http://dx.doi.org/10.2200/S00334ED1V01Y201102WBE001">
 <!ENTITY text2URL "http://www.sciencedirect.com.proxy2.library.illinois.edu/science/book/9780123859655">
 <!ENTITY Ont101URL "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.5085&rep=rep1&type=pdf">
-
+<!ENTITY sgmlsyl "https://raw.githubusercontent.com/ddubin65/OntoDev/master/ontoSpring16.sgml">
 <!ENTITY htac "http://www.htaccess-guide.com/">
 <!ENTITY rdf " http://www.w3.org/TR/rdf11-primer/">
 <!ENTITY protege "http://protegewiki.stanford.edu/wiki/ProtegeDesktopUserDocs">
@@ -149,8 +149,8 @@ representation of ontologies in W3C semantic web languages RDF(S) and
 OWL will be emphasized.</p>
   <sylsec id="syllabus">
     <sectl>This Syllabus</sectl> 
-    <p>The official syllabus for this course is the SGML version that
-is linked off the class web page. Expressions of the syllabus in other
+    <p>The official syllabus for this course is the SGML version at
+<weblink url="&sgmlsyl;">&sgmlsyl;</weblink>. Expressions of the syllabus in other
 formats are derived from the SGML version. The current SGML version
 should be consulted to resolve any inconsistencies among other
 renditions.</p>
