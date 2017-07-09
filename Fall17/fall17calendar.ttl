@@ -32,77 +32,77 @@
   dcterms:subject :GenBackground ;
   rdfs:label "Fall semester"@en .
 
-:Session01 a :Session ;
-  :date "CLASS01_1DATE" ;
+:IntroSession a :Session ;
+  :date "INTRO_DATE" ;
   dcterms:subject :Documents, :LIS501 ;
-  rdfs:label "Week 1, session 1"@en .
+  rdfs:label "Introduction to the class"@en .
 
-:Session02 a :Session ;
+:DescSession a :Session ;
   :date "CLASS01_2DATE" ;
   dcterms:subject :Collections ;
-  rdfs:label "Week 1, session 2"@en .
+  rdfs:label "Descriptions and the RDF Model"@en .
 
-:Session03 a :Session ;
+:LDSession a :Session ;
   :date "CLASS02_1DATE" ;
   dcterms:subject :Interfaces ;  
-  rdfs:label "Week 2, session 1"@en .
+  rdfs:label "Linked Data"@en .
 
-:Session04 a :Session ;
+:ApArchSession1 a :Session ;
   :date "CLASS02_2DATE" ;
-  rdfs:label "Week 2, session 2"@en .
+  rdfs:label "Application Architecture 1"@en .
 
-:Session05 a :Session ;
+:ApArchSession2 a :Session ;
   :date "CLASS03_1DATE" ;
   dcterms:subject :Searching, :Serendipity ;
-  rdfs:label "Week 3, session 1"@en .
+  rdfs:label "Application Architecture 2"@en .
 
-:Session06 a :Session ;
+:VocabSession a :Session ;
   :date "CLASS03_2DATE" ;
   dcterms:subject :Overload, :Convenience, :Specifying ;
-  rdfs:label "Week 3, session 2"@en .
+  rdfs:label "Vocabulary Schemas"@en .
 
-:Session07 a :Session ;
+:RDFSKOSSession a :Session ;
   :date "CLASS04_1DATE" ;
   dcterms:subject :Users ;
-  rdfs:label "Week 4, session 1"@en .
+  rdfs:label "RDF vs. SKOS"@en .
 
-:Session08 a :Session ;
+:RDFSSession a :Session ;
   :date "CLASS04_2DATE" ;
   dcterms:subject :Methods ;
-  rdfs:label "Week 4, session 2"@en .
+  rdfs:label "RDF Schema"@en .
 
-:Session09 a :Session ;
+:SpringBreak a :Session ;
   :date "CLASS05_1DATE" ;
-  rdfs:label "Week 5, session 1"@en .
+  rdfs:label "Spring Break: no meeting"@en .
 
-:Session10 a :Session ;
+:ProtegeSession a :Session ;
   :date "CLASS05_2DATE" ;
   dcterms:subject :Approaches ;
-  rdfs:label "Week 5, session 2"@en .
+  rdfs:label "Using Protege"@en .
 
-:Session11 a :Session ;
+:OWLSession1 a :Session ;
   :date "CLASS06_1DATE" ;
   dcterms:subject :Classification ;
-  rdfs:label "Week 6, session 1"@en .
+  rdfs:label "OWL Part 1"@en .
 
-:Session12 a :Session ;
+:OWLSession2 a :Session ;
   :date "CLASS06_2DATE" ;
-  rdfs:label "Week 6, session 2"@en .
+  rdfs:label "OWL, Part 2"@en .
 
-:Session13 a :Session ;
+:CoopSession a :Session ;
   :date "CLASS07_1DATE" ;
   dcterms:subject :Represent ;
-  rdfs:label "Week 7, session 1"@en .
+  rdfs:label "Cooperation and interoperability"@en .
 
-:Session14 a :Session ;
+:ExpressSession a :Session ;
   :date "CLASS07_2DATE" ;
   dcterms:subject :Standards ;
-  rdfs:label "Week 7, session 2"@en .
+  rdfs:label "Expressive power, tractable computations, decidability"@en .
 
-:Session15 a :Session ;
+:WrapupSession a :Session ;
   :date "CLASS08_1DATE" ;
   dcterms:subject :Evaluation ;
-  rdfs:label "Week 8, session 1"@en .
+  rdfs:label "Topicl Wrapup"@en .
 
 :Session16 a :Session ;
   :date "CLASS08_2DATE" ;
