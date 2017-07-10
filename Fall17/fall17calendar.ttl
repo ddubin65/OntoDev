@@ -71,9 +71,9 @@
   dcterms:subject :Methods ;
   rdfs:label "RDF Schema"@en .
 
-:SpringBreak a :Session ;
+:FallBreak a :Session ;
   :date "CLASS05_1DATE" ;
-  rdfs:label "Spring Break: no meeting"@en .
+  rdfs:label "Thanksgiving Break: no meeting"@en .
 
 :ProtegeSession a :Session ;
   :date "CLASS05_2DATE" ;
@@ -104,47 +104,6 @@
   dcterms:subject :Evaluation ;
   rdfs:label "Topicl Wrapup"@en .
 
-:Session16 a :Session ;
-  :date "CLASS08_2DATE" ;
-  dcterms:subject :Metadata ;  
-  rdfs:label "Week 8, session 2"@en .
-
-:Session9-1 a :Session ;
-  :date "CLASS09_1DATE" ;
-  dcterms:subject :Databases ;
-  rdfs:label "Week 9, session 1"@en .
-
-:Session9-2 a :Session ;
-  :date "CLASS09_2DATE" ;
-  dcterms:subject :Preservation ;
-  rdfs:label "Week 9, session 2"@en .
-
-:Session10-1 a :Session ;
-  :date "CLASS10_1DATE" ;
-  rdfs:label "Week 10, Spring break, no class meeting"@en .
-
-:Session10-2 a :Session ;
-  :date "CLASS10_2DATE" ;
-  rdfs:label "Week 10, Spring break, no class meeting"@en .
-  
-:Session11-1 a :Session ;
-  :date "CLASS11_1DATE" ;
-  dcterms:subject :Production ;
-  rdfs:label "Week 11, session 1"@en .
-
-:Session11-2 a :Session ;
-  :date "CLASS11_2DATE" ;
-  rdfs:label "Week 11, session 2"@en .
-
-:Session12-1 a :Session ;
-  :date "CLASS12_1DATE" ;
-  rdfs:label "Week 12, session 1"@en .
-
-:Session12-2 a :Session ;
-  :date "CLASS12_2DATE" ;
-      dcterms:subject :Social ;
-  rdfs:label "Week 12, session 2"@en .
-
 :501Lecture a :Activity ;
   :during :Session1-1 ;
   :date "FIRSTLECTUREDATE" ;
@@ -155,219 +114,15 @@
   :date "DOCUMENTSLECTUREDATE" ;
   rdfs:label "Lecture on documents"@en .
 
-:Introductions a :Activity ;
-  :during :Session1-1 ;
-  :date "INTROLABDATE" ;
-  rdfs:label "Introductions exercise"@en .
-
-:FileFormat a :Activity ;
-  :during :Session1-1 ;
-  :date "FILELABDATE" ;
-  rdfs:label "File format exercise"@en .
-
-:CollectionsSignup a :Activity ;
-  :during :Session1-2 ;
-  :date "COLLECTIONSIGNUPLABDATE" ;
-  rdfs:label "Sign up for 2 collections for Assignment 1 on the wiki set up for this purpose"@en .
-
-:LectureCollection a :Activity ;
-  :during :Session1-2 ;
-  :date "COLLECTIONLECTUREBDATE" ;
-  rdfs:label "Lecture on Collections"@en .
-    
-:LabCollection a :Activity ;
-  :during :Session2-1 ;
-  :date "COLLECTIONLABDATE" ;
-  rdfs:label "Collection stewardship exercise"@en .
-
-:ITDvisit a :Activity ;
-  :during :Session2-1 ;
-  :date "ITDDATE" ;
-  rdfs:label "Visit from Instructional Technology and Design on Computing resources"@en .
-
-:LabReference a :Activity ;
-  :during :Session2-2 ;
-  :date "REFLAB1DATE" ;
-  rdfs:label "Reference question exercise"@en .
-
-:LabInterface a :Activity ;
-  :during :Session2-2 ;
-  :date "INTERFACELABDATE" ;
-  rdfs:label "Command line exercise"@en .
-
-:LibraryInstructionVisit a :Activity ;
-  :during :Session3-1 ;
-  :date "DANDATE" ;
-  rdfs:label "Visit from Dan Tracy, LIS and Research Services Librarian"@en .
-  
-:LabReference2 a :Activity ;
-  :during :Session3-1 ;
-  :date "REFLAB2DATE" ;
-  rdfs:label"Revisit reference questions exercise"@en .
-
-:LectureUsers a :Activity ;
-  :during :Session4-1 ;
-  :date "USERSLECTUREDATE" ;
-  rdfs:label "Lecture on Information use and users"@en .
-  
-:LabZotero1 a :Activity ;
-  :during :Session4-2 ;
-  :date "ZOTERO1LABDATE" ;
-  rdfs:label "Zotero exercise"@en .
-
-:LectureResearch a :Activity ;
-  :during :Session4-2 ;
-  :date "RESEARCHLECTUREDATE" ;
-  rdfs:label "Lecture on Research methods"@en .
- 
-:LabMethods a :Activity ;
-  :during :Session5-1 ;
-  :date "METHODSLABDATE" ;
-  rdfs:label "Research methods exercise"@en .
-
-:LabUsers a :Activity ;
-  :during :Session5-1 ;
-  :date "USERSLABDATE";
-  rdfs:label "Small group discussiond of Use and Users (drawing on Assignment 1)"@en .
-
-:LabSpurlockVisit a :Activity ;
-  :during :Session6-2 ;
-  :date "SPURLOCKDATE";  
-  rdfs:label "Visit to Spurlock Museum"@en .
-
-:LabSpurlock a :Activity ;
-  :during :Session6-2 ;
-  :date "SPURLOCKDATE";  
-  rdfs:label "Cultural heritage object description exercise"@en .
-
 :LectureStructures a :Activity ;
   :during :Session7-1 ;
   :date "STRUCTURESLECTUREDATE" ;
   rdfs:label "Lecture on Structuring and representing information"@en .
 
-:LabPandoc1 a :Activity ;
-  :during :Session7-1 ;
-  :date "PANDOC1LABDATE" ;
-  rdfs:label "Pandoc exercise: cultural heritage metadata"@en .
-
-:LabPandoc2 a :Activity ;
-  :during :Session7-1 ;
-  :date "PANDOC2LABDATE" ;
-  rdfs:label "Pandoc exercise: text encoding"@en .
-
-:LectureStandards a :Activity ;
-  :during :Session7-2 ;
-  :date "STANDARDSLECTUREDATE" ;
-  rdfs:label "Lecture on Standards and standardization"@en .
-
-:LabPandoc3 a :Activity ;
-  :during :Session7-2 ;
-  :date "PANDOC3LABDATE" ;
-  rdfs:label "Pandoc exercise: Pandoc and EPUB"@en .
-
-:LabUnicode a :Activity ;
-  :during :Session7-2 ;
-  :date "UNICODELABDATE" ;
-  rdfs:label "Character encoding exercise"@en .
-
-:LectureEvaluation a :Activity ;
-  :during :Session8-1 ;
-  :date "EVALUATIONLECTUREDATE" ;
-  rdfs:label "Lecture on Evaluation of systems and services"@en .
-
-:LabZotero2 a :Activity ;
-  :during :Session8-2 ;
-  :date "ZOTERO2LABDATE" ;
-  rdfs:label "Zotero applications"@en .
-
-:LabDatabase a :Activity ;
-  :during :Session9-1 ;
-  :date "DATABASELABDATE" ;
-  rdfs:label "Database Design exercise"@en .
-  
-:PreservationVisit a :Activity ;
-  :during :Session9-2 ;
-  :date "PRESERVATIONDATE" ;
-  rdfs:label "Visit from Jennifer Hain Teper, Bud Velde Professor of Library Preservation and Head, Preservation Services, Professor, University Library"@en .
-
-:Practice a :Activity ;
-  :during :Session11-1 ;
-  :date "PRACTICEDATE" ;
-  rdfs:label "Practice presentations"@en .
-
-:Presentations a :Activity ;
-  :during :Session11-2 ;
-  :date "PRESENTATIONSDATE" ;
-  rdfs:label "Project presentations"@en .
-
-:Preparation a :Activity ;
-  :during :Session12-1 ;
-  :date "PREPARATIONDATE" ;
-  rdfs:label "Project preparation"@en .
-
-:ICES a :Activity ;
-  :during :Session12-2 ;
-  :date "ICESDATE" ;
-  rdfs:label "ICES evaluations"@en .
-
-:CollectionsSignup a :Activity ;
-  :during :Session1-2 ;
-  :date "COLLECTIONSIGNUPLABDATE" ;
-  rdfs:label "Sign up for 2 collections for Assignment 1 on the wiki set up for this purpose"@en .
-
-:DiscussionInterfaces a :Activity ;
-  :during :Session2-1 ;
-  :date "DISCUSSIONINTERFACES" ;
-  rdfs:label "Student-led discussion of interfaces and interaction"@en .
-
-:DiscussionAsk a :Activity ;
-  :during :Session3-2 ;
-  :date "DISCUSSIONASK" ;
-  rdfs:label "Student-led discussion of anomalous states of knowledge"@en .
-
-:DiscussionInfoPoverty a :Activity ;
-  :during :Session3-2 ;
-  :date "DISCUSSIONINFOPOVERTY" ;
-  rdfs:label "Student-led discussion of small worlds, convenience and information poverty"@en .
-
-:DiscussionInfoOverload a :Activity ;
-  :during :Session3-2 ;
-  :date "DISCUSSIONINFOOVERLOAD" ;
-  rdfs:label "Student-led discussion of information overload and anxiety"@en .
-
-:DiscussionOrganizing a :Activity ;
-  :during :Session5-2 ;
-  :date "DISCUSSIONORGANIZING" ;
-  rdfs:label "Student-led discussion of approaches to organizing information"@en .
-
 :DiscussionClassification a :Activity ;
   :during :Session6-1 ;
   :date "DISCUSSIONCLASSIFICATION" ;
   rdfs:label "Student-led discussion of classification and folksonomy"@en .
-
-:LectureMetadata a :Activity ;
-  :during :Session8-2 ;
-  :date "LECTUREMETADATA" ;
-  rdfs:label "Lecture on metadata and metadata interchange"@en .
-
-:DiscussionDatabases a :Activity ;
-  :during :Session9-1 ;
-  :date "DISCUSSIONDATABASES" ;
-  rdfs:label "Student-led discussion of database design"@en .
-
-:DiscussionInfoProduction a :Activity ;
-  :during :Session11-1 ;
-  :date "DISCUSSIONINFOPRODUCTION" ;
-  rdfs:label "Student-led discussion of information life cycles and production"@en .
-
-:LectureSocial a :Activity ;
-  :during :Session12-2 ;
-  :date "LECTURESOCIAL" ;
-  rdfs:label "Lecture on problems of social reproduction, subject analysis, identity, and authority"@en .
-  
-:LIS501 a skos:Concept ;
-  :reqReading bib:LIS501 ;
-  skos:prefLabel "Core Competencies"@en.
 
 :Approaches a skos:Concept ;
   :reqReading bib:Approaches ;
@@ -381,73 +136,59 @@
   :reqReading bib:Classification ;
   skos:prefLabel "Classification and folksonomy"@en.
 
-:Collections a skos:Concept ;
-  :reqReading bib:Collections ;
-  skos:prefLabel "Collections"@en.
+:Approaches a skos:Concept ;
+  :reqReading bib:Approaches ;
+  skos:prefLabel "Approaches to organizing information"@en.
 
-:Convenience a skos:Concept ;
-  :reqReading bib:Convenience ;
-  skos:prefLabel "Small worlds, convenience and information poverty"@en.
+:Ontologies a skos:Concept ;
+  :reqReading bib:Documents ;
+  skos:prefLabel "Ontologies"@en.
 
-:Databases a skos:Concept ;
-  :reqReading bib:Databases ;
-  skos:prefLabel "Database design"@en.
-  
-:Evaluation a skos:Concept ;
-  :reqReading bib:Evaluation ;
-  skos:prefLabel "Evaluation of systems and services"@en.
+:LinkedData a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Linked Open Data"@en.
 
-:Interfaces a skos:Concept ;
-  :reqReading bib:Interfaces ;
-  skos:prefLabel "Interfaces and interaction"@en.
+:Graphs a skos:Concept ;
+  :reqReading bib:Approaches ;
+  skos:prefLabel "RDF graphs"@en.
 
-:Metadata a skos:Concept ;
-  :reqReading bib:Metadata ;
-  skos:prefLabel "Metadata and metadata interchange"@en.
+:Serialization a skos:Concept ;
+  :reqReading bib:Documents ;
+  skos:prefLabel "RDF serializations"@en.
 
-:Methods a skos:Concept ;
-  :reqReading bib:Methods ;
-  skos:prefLabel "Research methods"@en.
+:RDFS a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "RDF Schema"@en.
 
-:Overload a skos:Concept ;
-  :reqReading bib:Overload ;
-  skos:prefLabel "Information overload and anxiety"@en.
+:SKOS a skos:Concept ;
+  :reqReading bib:Approaches ;
+  skos:prefLabel "SKOS"@en.
 
-:Preservation a skos:Concept ;
-  :reqReading bib:Preservation ;
-  skos:prefLabel "Resource preservation"@en.
+:Protege a skos:Concept ;
+  :reqReading bib:Documents ;
+  skos:prefLabel "The Protege ontology editor"@en.
 
-:Production a skos:Concept ;
-  :reqReading bib:Production ;
-  skos:prefLabel "Information life cycles and production"@en.
+:OWL a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "OWL, the Web Ontology Language"@en.
 
-:Represent a skos:Concept ;
-  :reqReading bib:Represent ;
-  skos:prefLabel "Structuring and representing information"@en.
+:Interoperability a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Interoperability"@en.
 
-:Searching a skos:Concept ;
-  :reqReading bib:Searching ;
-  skos:prefLabel "Search strategy"@en.
+:Expressive a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Expressive power"@en.
 
-:Serendipity a skos:Concept ;
-  :reqReading bib:Serendipity ;
-  skos:prefLabel "Browsing and serendipity"@en.
+:Tractable a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Tractable computations"@en.
 
-:Social a skos:Concept ;
-  :reqReading bib:Social ;
-  skos:prefLabel "Problems of social reproduction, subject analysis, identity, and authority"@en.
+:Decidable a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Decidability"@en.
 
-:Specifying a skos:Concept ;
-  :reqReading bib:Specifying ;
-  skos:prefLabel "Anomalous states of knowledge"@en.
 
-:Standards a skos:Concept ;
-  :reqReading bib:Standards ;
-  skos:prefLabel "Standards and standardization"@en.
-
-:Users a skos:Concept ;
-  :reqReading bib:Users ;
-  skos:prefLabel "Information use and users"@en.
 
 :Asgt3 a :Assignment ;
   rdfs:label "Assignment 3: Research Design Proposal"@en ;
@@ -481,64 +222,4 @@
   rdfs:label "Assignment 3 Milestone 1: Research question draft"@en ;
   :date "M1DUE" ;
   :during :Session3-2 .
-
-:A3M2 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 2: Research reflection plan"@en ;
-  :date "M2DUE" ;
-  :during :Session3-2 .
-
-:A3M3 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 3: Research methods draft"@en ;
-  :date "M3DUE" ;
-  :during :Session5-2 .
-
-:A3M4 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 4: One annotated bibliography item"@en ;
-  :date "M4DUE" ;
-  :during :Session6-2 .
-
-:A3M5 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 5: One search reflection"@en ;
-  :date "M5DUE" ;
-  :during :Session7-2 .
-
-:A3M6 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 6: 20-item resource list, as Zotero RSS feed"@en ;
-  :date "M6DUE" ;
-  :during :Session8-2 .
-
-:A3M7 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 7: Abstract outline and two annotations"@en ;
-  :date "M7DUE" ;
-  :during :Session9-1 .
-
-:A3M8 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 8: Reflections journal"@en ;
-  :date "M8DUE" ;
-  :during :Session11-2 .
-
-:A3D3 a :Deadline ;
-  rdfs:label "Assignment 3 Final deliverable: Oral presentation"@en ;
-  :date "A3CDUE" ;
-  :during :Session11-2 .
-  
-:A3D1 a :Deadline ;
-  rdfs:label "Assignment 3 Final deliverable: Extended abstract"@en ;
-  :date "A3ADUE" ;
-  :during :Session12-2 .
-
-:A3D2 a :Deadline ;
-  rdfs:label "Assignment 3 Final deliverable: Annotated bibliography"@en ;
-  :date "A3BDUE" ;
-  :during :Session12-2 .
-
-:RR3 a :Deadline ;
-  rdfs:label "3 of your 4 Reading Responses should be complete by 11 PM tomorrow."@en ;
-  :date "RR3DUE" ;
-  :during :Session11-1 .
-
-:RR4 a :Deadline ;
-  rdfs:label "All 4 Reading Responses should be complete by 11 PM tomorrow."@en ;
-  :date "RR4DUE" ;
-  :during :Session12-2 .
 
