@@ -188,6 +188,13 @@
   :reqReading bib:Classification ;
   skos:prefLabel "Decidability"@en.
 
+:DomainAnalysis a skos:Concept ;
+  :reqReading bib:Classification ;
+  skos:prefLabel "Domain analysis"@en.
+
+:Realism a skos:Concept ;
+  :reqReading bib:Jubien ;
+  skos:prefLabel "Realism and alternatives"@en.
 
 
 :Asgt3 a :Assignment ;
