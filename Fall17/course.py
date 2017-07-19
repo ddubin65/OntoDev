@@ -15,7 +15,10 @@ class Description:
    def __init__(self):
       self.attribute = {}
    def setAttrib(self, attrib, value):
-      self.attribute[attrib] = value
+      if attrib in self.attribute:
+        (self.attribute[attrib]).append(value)
+      else:
+        self.attribute[attrib] = [value]
    def getAttrib(self,attrib):
       return(self.attribute[attrib])
    def display(self):
@@ -27,13 +30,10 @@ class Description:
                if len(args) == 0:
                     return(self.attribute[name])
                else:
-                    self.attribute[name] = args[0]
+                    (self.attribute[name]).append(args[0])
             else: return(False)
         return handlerFunction
 
-
-
-# This approach assumes all properties are functional
 class Thing(Description):
    def __init__(*args):
       self = args[0]
