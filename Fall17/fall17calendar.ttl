@@ -32,95 +32,156 @@
   dcterms:subject :GenBackground ;
   rdfs:label "Fall semester"@en .
 
-:IntroSession a :Session ;
+:IntroUnit a :Unit ;
   :date "INTRO_DATE" ;
   dcterms:subject :Documents, :LIS501 ;
   rdfs:label "Introduction to the class"@en .
 
-:DescSession a :Session ;
+:DescUnit a :Unit ;
   :date "CLASS01_2DATE" ;
   dcterms:subject :Collections ;
   rdfs:label "Descriptions and the RDF Model"@en .
 
-:LDSession a :Session ;
+:LDUnit a :Unit ;
   :date "CLASS02_1DATE" ;
   dcterms:subject :Interfaces ;  
   rdfs:label "Linked Data"@en .
 
-:ApArchSession1 a :Session ;
+:ApArchUnit1 a :Unit ;
   :date "CLASS02_2DATE" ;
   rdfs:label "Application Architecture 1"@en .
 
-:ApArchSession2 a :Session ;
+:ApArchUnit2 a :Unit ;
   :date "CLASS03_1DATE" ;
   dcterms:subject :Searching, :Serendipity ;
   rdfs:label "Application Architecture 2"@en .
 
-:VocabSession a :Session ;
+:VocabUnit a :Unit ;
   :date "CLASS03_2DATE" ;
   dcterms:subject :Overload, :Convenience, :Specifying ;
   rdfs:label "Vocabulary Schemas"@en .
 
-:RDFSKOSSession a :Session ;
+:RDFSKOSUnit a :Unit ;
   :date "CLASS04_1DATE" ;
   dcterms:subject :Users ;
   rdfs:label "RDF vs. SKOS"@en .
 
-:RDFSSession a :Session ;
+:RDFSUnit a :Unit ;
   :date "CLASS04_2DATE" ;
   dcterms:subject :Methods ;
   rdfs:label "RDF Schema"@en .
 
-:FallBreak a :Session ;
+:FallBreak a :Unit ;
   :date "CLASS05_1DATE" ;
   rdfs:label "Thanksgiving Break: no meeting"@en .
 
-:ProtegeSession a :Session ;
+:ProtegeUnit a :Unit ;
   :date "CLASS05_2DATE" ;
   dcterms:subject :Approaches ;
   rdfs:label "Using Protege"@en .
 
-:OWLSession1 a :Session ;
+:OWLUnit1 a :Unit ;
   :date "CLASS06_1DATE" ;
   dcterms:subject :Classification ;
   rdfs:label "OWL Part 1"@en .
 
-:OWLSession2 a :Session ;
+:OWLUnit2 a :Unit ;
   :date "CLASS06_2DATE" ;
   rdfs:label "OWL, Part 2"@en .
 
-:CoopSession a :Session ;
+:CoopUnit a :Unit ;
   :date "CLASS07_1DATE" ;
   dcterms:subject :Represent ;
   rdfs:label "Cooperation and interoperability"@en .
 
-:ExpressSession a :Session ;
+:ExpressUnit a :Unit ;
   :date "CLASS07_2DATE" ;
   dcterms:subject :Standards ;
   rdfs:label "Expressive power, tractable computations, decidability"@en .
 
-:WrapupSession a :Session ;
+:WrapupUnit a :Unit ;
   :date "CLASS08_1DATE" ;
   dcterms:subject :Evaluation ;
   rdfs:label "Topicl Wrapup"@en .
 
+
+:Meeting01 a :Meeting;
+  :date "MEETING01DATE" ;
+  rdfs:label "Meeting 1"@en .
+
+:Meeting02 a :Meeting;
+  :date "MEETING02DATE" ;
+  rdfs:label "Meeting 2"@en .
+
+:Meeting03 a :Meeting;
+  :date "MEETING03DATE" ;
+  rdfs:label "Meeting 3"@en .
+
+:Meeting04 a :Meeting;
+  :date "MEETING04DATE" ;
+  rdfs:label "Meeting 4"@en .
+
+:Meeting05 a :Meeting;
+  :date "MEETING05DATE" ;
+  rdfs:label "Meeting 5"@en .
+
+:Meeting06 a :Meeting;
+  :date "MEETING06DATE" ;
+  rdfs:label "Meeting 6"@en .
+
+:Meeting07 a :Meeting;
+  :date "MEETING07DATE" ;
+  rdfs:label "Meeting 7"@en .
+
+:Meeting08 a :Meeting;
+  :date "MEETING08DATE" ;
+  rdfs:label "Meeting 8"@en .
+
+:Meeting09 a :Meeting;
+  :date "MEETING09DATE" ;
+  rdfs:label "Meeting 9"@en .
+
+:Meeting10 a :Meeting;
+  :date "MEETING10DATE" ;
+  rdfs:label "Meeting 10"@en .
+
+:Meeting11 a :Meeting;
+  :date "MEETING11DATE" ;
+  rdfs:label "Meeting 11"@en .
+
+:Meeting12 a :Meeting;
+  :date "MEETING12DATE" ;
+  rdfs:label "Meeting 12"@en .
+
+:Meeting13 a :Meeting;
+  :date "MEETING13DATE" ;
+  rdfs:label "Meeting 13"@en .
+
+:Meeting14 a :Meeting;
+  :date "MEETING14DATE" ;
+  rdfs:label "Meeting 14"@en .
+
+:Meeting15 a :Meeting;
+  :date "MEETING15DATE" ;
+  rdfs:label "Meeting 15"@en .
+
 :501Lecture a :Activity ;
-  :during :Session1-1 ;
+  :during :Unit1-1 ;
   :date "FIRSTLECTUREDATE" ;
   rdfs:label "Presentation of the syllabus & core competencies"@en .
   
 :DocumentsLecture a :Activity ;
-  :during :Session1-1 ;
+  :during :Unit1-1 ;
   :date "DOCUMENTSLECTUREDATE" ;
   rdfs:label "Lecture on documents"@en .
 
 :LectureStructures a :Activity ;
-  :during :Session7-1 ;
+  :during :Unit7-1 ;
   :date "STRUCTURESLECTUREDATE" ;
   rdfs:label "Lecture on Structuring and representing information"@en .
 
 :DiscussionClassification a :Activity ;
-  :during :Session6-1 ;
+  :during :Unit6-1 ;
   :date "DISCUSSIONCLASSIFICATION" ;
   rdfs:label "Student-led discussion of classification and folksonomy"@en .
 
@@ -218,15 +279,15 @@
 :A1D1 a :Deadline ;
   rdfs:label "Assignment 1: Collections Assessment and Comparison"@en ;
   :date "A1DUE" ;
-  :during :Session2-2 .
+  :during :Unit2-2 .
 
 :A2D1 a :Deadline ;
   rdfs:label "Assignment 1: Information Needs/Information Seeking Behavior Essay"@en ;
   :date "A2DUE" ;
-  :during :Session5-1 .
+  :during :Unit5-1 .
 
 :A3M1 a :Deadline ;
   rdfs:label "Assignment 3 Milestone 1: Research question draft"@en ;
   :date "M1DUE" ;
-  :during :Session3-2 .
+  :during :Unit3-2 .
 

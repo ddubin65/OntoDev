@@ -41,12 +41,12 @@ class Thing(Description):
       if len(args) > 1:
         self.attribute['iri'] = args[1]
 
-class Session(Thing):
+class Meeting(Thing):
    def __init__(*args):
       self = args[0]
       Thing.__init__(self)
 
-class Week(Thing):
+class Unit(Thing):
    def __init__(*args):
       self = args[0]
       Thing.__init__(self)
