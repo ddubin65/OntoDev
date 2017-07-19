@@ -38,72 +38,71 @@
   rdfs:label "Introduction to the class"@en .
 
 :DescUnit a :Unit ;
-  :date "CLASS01_2DATE" ;
+  :date "DESCUNITDATE" ;
   dcterms:subject :Collections ;
   rdfs:label "Descriptions and the RDF Model"@en .
 
 :LDUnit a :Unit ;
-  :date "CLASS02_1DATE" ;
+  :date "LDUNITDATE" ;
   dcterms:subject :Interfaces ;  
   rdfs:label "Linked Data"@en .
 
 :ApArchUnit1 a :Unit ;
-  :date "CLASS02_2DATE" ;
+  :date "APARCHUNIT1DATE" ;
   rdfs:label "Application Architecture 1"@en .
 
 :ApArchUnit2 a :Unit ;
-  :date "CLASS03_1DATE" ;
+  :date "APARCHUNIT2DATE" ;
   dcterms:subject :Searching, :Serendipity ;
   rdfs:label "Application Architecture 2"@en .
 
 :VocabUnit a :Unit ;
-  :date "CLASS03_2DATE" ;
+  :date "VOCABUNITDATE" ;
   dcterms:subject :Overload, :Convenience, :Specifying ;
   rdfs:label "Vocabulary Schemas"@en .
 
 :RDFSKOSUnit a :Unit ;
-  :date "CLASS04_1DATE" ;
+  :date "RDFSKOSUNITDATE" ;
   dcterms:subject :Users ;
   rdfs:label "RDF vs. SKOS"@en .
 
 :RDFSUnit a :Unit ;
-  :date "CLASS04_2DATE" ;
+  :date "RDFSUNITDATE" ;
   dcterms:subject :Methods ;
   rdfs:label "RDF Schema"@en .
 
-:FallBreak a :Unit ;
+:FallBreak a :Holiday ;
   :date "CLASS05_1DATE" ;
   rdfs:label "Thanksgiving Break: no meeting"@en .
 
 :ProtegeUnit a :Unit ;
-  :date "CLASS05_2DATE" ;
+  :date "PROTEGEUNITDATE" ;
   dcterms:subject :Approaches ;
   rdfs:label "Using Protege"@en .
 
 :OWLUnit1 a :Unit ;
-  :date "CLASS06_1DATE" ;
+  :date "OWLUNIT1DATE" ;
   dcterms:subject :Classification ;
   rdfs:label "OWL Part 1"@en .
 
 :OWLUnit2 a :Unit ;
-  :date "CLASS06_2DATE" ;
+  :date "OWLUNIT2DATE" ;
   rdfs:label "OWL, Part 2"@en .
 
 :CoopUnit a :Unit ;
-  :date "CLASS07_1DATE" ;
+  :date "COOPUNITDATE" ;
   dcterms:subject :Represent ;
   rdfs:label "Cooperation and interoperability"@en .
 
 :ExpressUnit a :Unit ;
-  :date "CLASS07_2DATE" ;
+  :date "EXPRESSUNITDATE" ;
   dcterms:subject :Standards ;
   rdfs:label "Expressive power, tractable computations, decidability"@en .
 
 :WrapupUnit a :Unit ;
-  :date "CLASS08_1DATE" ;
+  :date "WRAPUNITDATE" ;
   dcterms:subject :Evaluation ;
   rdfs:label "Topicl Wrapup"@en .
-
 
 :Meeting01 a :Meeting;
   :date "MEETING01DATE" ;
