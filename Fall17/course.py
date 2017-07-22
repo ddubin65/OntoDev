@@ -37,8 +37,10 @@ class Description:
 class Thing(Description):
    def __init__(*args):
       self = args[0]
+      print("ho" + str(args[1]))
       Description.__init__(self)
       if len(args) > 1:
+        print("hey " + str(args[1]))
         self.attribute['iri'] = args[1]
 
 class Meeting(Thing):
