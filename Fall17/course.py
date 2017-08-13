@@ -37,41 +37,40 @@ class Description:
 class Thing(Description):
    def __init__(*args):
       self = args[0]
-      print("ho" + str(args[1]))
       Description.__init__(self)
       if len(args) > 1:
-        print("hey " + str(args[1]))
         self.attribute['iri'] = args[1]
+        myobjects[args[1]] = self
 
 class Meeting(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 class Unit(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 class Activity(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 class Concept(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 class Assignment(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 class Deadline(Thing):
    def __init__(*args):
       self = args[0]
-      Thing.__init__(self)
+      Thing.__init__(self,args[1:len(args)])
 
 # URI scheme 
 isch = Namespace("http://courseweb.ischool.illinois.edu/")

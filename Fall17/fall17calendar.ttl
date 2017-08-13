@@ -1,4 +1,4 @@
-@prefix : <http://courseweb.ischool.illinois.edu/lis/2017sp/lis501/> .
+@prefix : <http://courseweb.ischool.illinois.edu/lis/2017fa/is590od/> .
 @prefix hwk: <https://courses.ischool.illinois.edu/mod/assign/> .
 @prefix z: <http://www.zotero.org/namespaces/export#> .
 @prefix ad: <http://schemas.talis.com/2005/address/schema#> .
@@ -71,10 +71,6 @@
   dcterms:subject :Methods ;
   rdfs:label "RDF Schema"@en .
 
-:FallBreak a :Holiday ;
-  :date "CLASS05_1DATE" ;
-  rdfs:label "Thanksgiving Break: no meeting"@en .
-
 :ProtegeUnit a :Unit ;
   :date "PROTEGEUNITDATE" ;
   dcterms:subject :Approaches ;
@@ -106,62 +102,82 @@
 
 :Meeting01 a :Meeting;
   :date "MEETING01DATE" ;
+  :meetingOrder "01" ;
   rdfs:label "Meeting 1"@en .
 
 :Meeting02 a :Meeting;
   :date "MEETING02DATE" ;
+  :meetingOrder "02" ;  
   rdfs:label "Meeting 2"@en .
 
 :Meeting03 a :Meeting;
   :date "MEETING03DATE" ;
+  :meetingOrder "03" ;    
   rdfs:label "Meeting 3"@en .
 
 :Meeting04 a :Meeting;
   :date "MEETING04DATE" ;
+  :meetingOrder "04" ;    
   rdfs:label "Meeting 4"@en .
 
 :Meeting05 a :Meeting;
   :date "MEETING05DATE" ;
+  :meetingOrder "05" ;    
   rdfs:label "Meeting 5"@en .
 
 :Meeting06 a :Meeting;
   :date "MEETING06DATE" ;
+  :meetingOrder "06" ;    
   rdfs:label "Meeting 6"@en .
 
 :Meeting07 a :Meeting;
   :date "MEETING07DATE" ;
+  :meetingOrder "07" ;    
   rdfs:label "Meeting 7"@en .
 
 :Meeting08 a :Meeting;
   :date "MEETING08DATE" ;
+  :meetingOrder "08" ;    
   rdfs:label "Meeting 8"@en .
 
 :Meeting09 a :Meeting;
   :date "MEETING09DATE" ;
+  :meetingOrder "09" ;    
   rdfs:label "Meeting 9"@en .
 
 :Meeting10 a :Meeting;
   :date "MEETING10DATE" ;
+  :meetingOrder "10" ;    
   rdfs:label "Meeting 10"@en .
 
 :Meeting11 a :Meeting;
   :date "MEETING11DATE" ;
+  :meetingOrder "11" ;    
   rdfs:label "Meeting 11"@en .
 
 :Meeting12 a :Meeting;
   :date "MEETING12DATE" ;
+  :meetingOrder "12" ;    
   rdfs:label "Meeting 12"@en .
 
 :Meeting13 a :Meeting;
   :date "MEETING13DATE" ;
+  :meetingOrder "13" ;    
   rdfs:label "Meeting 13"@en .
+
+:FallBreak a :Holiday ;
+  :date "HOLIDAY1DATE" ;
+  :meetingOrder "14" ;    
+  rdfs:label "Thanksgiving Break: no meeting"@en .
 
 :Meeting14 a :Meeting;
   :date "MEETING14DATE" ;
+  :meetingOrder "15" ;    
   rdfs:label "Meeting 14"@en .
 
 :Meeting15 a :Meeting;
   :date "MEETING15DATE" ;
+  :meetingOrder "16" ;    
   rdfs:label "Meeting 15"@en .
 
 :501Lecture a :Activity ;
