@@ -29,280 +29,197 @@
   event:time [ a tl:Interval ;
       tl:at "2017-08-28T00:00:00-5:00"^^xsd:dateTime ;
       tl:duration "P120D"^^xsd:duration] ;
-  dcterms:subject :GenBackground ;
   rdfs:label "Fall semester"@en .
 
-:IntroUnit a :Unit ;
-  :date "INTRO_DATE" ;
-  dcterms:subject :Documents, :LIS501 ;
+:Week1 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-08-27T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :IntroClass ;
+  :date "PRES1DATE" ;    
+  rdfs:label "Week 1"@en .
+
+:Week2 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-09-03T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :turtle, :foaftopic ;
+  :date "PRES2DATE" ;
+  rdfs:label "Week 2"@en .
+
+:Week3 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-09-10T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :git, :pandoc ;
+  :date "PRES3DATE" ;  
+  rdfs:label "Week 3"@en .
+
+:Week4 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-09-17T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :descriptions ;
+  :date "PRES4DATE" ;  
+  rdfs:label "Week 4"@en .
+
+:Week5 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-09-24T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :linkedData ;
+  :date "PRES5DATE" ;  
+  rdfs:label "Week 5"@en .
+
+:Week6 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-10-01T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :appArch  ;
+  :date "PRES6DATE" ;  
+  rdfs:label "Week 6"@en .
+
+:Week7 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-10-08T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :rdfSchema ;
+  :date "PRES7DATE" ;  
+  rdfs:label "Week 7"@en .
+
+:Week8 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-10-15T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :skostopic ;
+  :date "PRES8DATE" ;  
+  rdfs:label "Week 8"@en .
+
+:Week9 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-10-22T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :protege ;
+  :date "PRES9DATE" ;  
+  rdfs:label "Week 9"@en .
+
+:Week10 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-10-29T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :owl1 ;
+  :date "PRES10DATE" ;  
+  rdfs:label "Week 10"@en .
+
+:Week11 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-11-05T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :owl2 ;
+  :date "PRES11DATE" ;  
+  rdfs:label "Week 11"@en .
+
+:Week12 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-11-12T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :interop ;
+  :date "PRES12DATE" ;  
+  rdfs:label "Week 12"@en .
+
+:Week13 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-11-19T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  :date "PRES13DATE" ;  
+  rdfs:label "Thanksgiving Holiday"@en .
+
+:Week14 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-11-26T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :Inference ;
+  :date "PRES14DATE" ;    
+  rdfs:label "Week 14"@en .
+
+:Week15 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-12-03T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :expressive ;
+  :date "PRES15DATE" ;    
+  rdfs:label "Week 15"@en .
+
+:Week16 a :Week ;
+  event:time [ a tl:Interval ;
+      tl:at "2017-12-10T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P7D"^^xsd:duration] ;
+  dcterms:subject :Conclusion ;
+  :date "PRES16DATE" ;    
+  rdfs:label "Week 16"@en .
+
+:IntroClass a skos:Concept ;
   rdfs:label "Introduction to the class"@en .
 
-:DescUnit a :Unit ;
-  :date "DESCUNITDATE" ;
-  dcterms:subject :Collections ;
-  rdfs:label "Descriptions and the RDF Model"@en .
+:turtle a skos:Concept ;
+  :reqReading "TURTLEREADING" ;
+  skos:prefLabel "the Turtle format"@en.
 
-:LDUnit a :Unit ;
-  :date "LDUNITDATE" ;
-  dcterms:subject :Interfaces ;  
-  rdfs:label "Linked Data"@en .
+:foaftopic a skos:Concept ;
+  :reqReading "FOAFREADING" ;
+  skos:prefLabel "FOAF profiles"@en.
 
-:ApArchUnit1 a :Unit ;
-  :date "APARCHUNIT1DATE" ;
-  rdfs:label "Application Architecture 1"@en .
+:git a skos:Concept ;
+  :reqReading "GITREADING" ;
+  skos:prefLabel "Using Git"@en.
 
-:ApArchUnit2 a :Unit ;
-  :date "APARCHUNIT2DATE" ;
-  dcterms:subject :Searching, :Serendipity ;
-  rdfs:label "Application Architecture 2"@en .
+:pandoc a skos:Concept ;
+  :reqReading "PANDOCREADING" ;
+  skos:prefLabel "Using Pandoc"@en.
 
-:VocabUnit a :Unit ;
-  :date "VOCABUNITDATE" ;
-  dcterms:subject :Overload, :Convenience, :Specifying ;
-  rdfs:label "Vocabulary Schemas"@en .
+:descriptions a skos:Concept ;
+  :reqReading "DESCRIPTIONSREADING" ;
+  rdfs:label "Descriptions and the RDF Model"@en .  
 
-:RDFSKOSUnit a :Unit ;
-  :date "RDFSKOSUNITDATE" ;
-  dcterms:subject :Users ;
-  rdfs:label "RDF vs. SKOS"@en .
+:linkedData a skos:Concept ;
+  :reqReading "LINKEDDATAREADING" ;
+  rdfs:label "Linked Data"@en .  
 
-:RDFSUnit a :Unit ;
-  :date "RDFSUNITDATE" ;
-  dcterms:subject :Methods ;
-  rdfs:label "RDF Schema"@en .
+:appArch a skos:Concept ;
+  :reqReading "APPARCHREADING" ;
+  rdfs:label "Application Architecture"@en .  
 
-:ProtegeUnit a :Unit ;
-  :date "PROTEGEUNITDATE" ;
-  dcterms:subject :Approaches ;
-  rdfs:label "Using Protege"@en .
+:rdfSchema a skos:Concept ;
+  :reqReading "RDFSREADING" ;
+  rdfs:label "RDF Schema"@en .  
 
-:OWLUnit1 a :Unit ;
-  :date "OWLUNIT1DATE" ;
-  dcterms:subject :Classification ;
-  rdfs:label "OWL Part 1"@en .
+:skostopic a skos:Concept ;
+  :reqReading "SKOSREADING" ;
+  rdfs:label "The SKOS framework"@en .  
 
-:OWLUnit2 a :Unit ;
-  :date "OWLUNIT2DATE" ;
-  rdfs:label "OWL, Part 2"@en .
+:protege a skos:Concept ;
+  :reqReading "PROTEGEREADING" ;
+  skos:prefLabel "Using Protege"@en.
 
-:CoopUnit a :Unit ;
-  :date "COOPUNITDATE" ;
-  dcterms:subject :Represent ;
-  rdfs:label "Cooperation and interoperability"@en .
+:owl1 a skos:Concept ;
+  :reqReading "OWL1READING" ;
+  skos:prefLabel "OWL, Part 1"@en.
 
-:ExpressUnit a :Unit ;
-  :date "EXPRESSUNITDATE" ;
-  dcterms:subject :Standards ;
-  rdfs:label "Expressive power, tractable computations, decidability"@en .
+:owl2 a skos:Concept ;
+  :reqReading "OWL2READING" ;
+  skos:prefLabel "OWL, Part 2"@en.
 
-:WrapupUnit a :Unit ;
-  :date "WRAPUNITDATE" ;
-  dcterms:subject :Evaluation ;
-  rdfs:label "Topicl Wrapup"@en .
+:interop a skos:Concept ;
+  :reqReading "INTEROPREADING" ;
+  skos:prefLabel "Cooperation and interoperability"@en.
 
-:Meeting01 a :Meeting;
-  :date "MEETING01DATE" ;
-  :meetingOrder "01" ;
-  rdfs:label "Meeting 1"@en .
+:inference a skos:Concept ;
+  :reqReading "INFERENCEREADING" ;
+  skos:prefLabel "Automated reasoning and inference"@en.
 
-:Meeting02 a :Meeting;
-  :date "MEETING02DATE" ;
-  :meetingOrder "02" ;  
-  rdfs:label "Meeting 2"@en .
+:expressive a skos:Concept ;
+  :reqReading "EXPRESSIVEREADING" ;
+  skos:prefLabel "Computation and expressive power"@en.
 
-:Meeting03 a :Meeting;
-  :date "MEETING03DATE" ;
-  :meetingOrder "03" ;    
-  rdfs:label "Meeting 3"@en .
-
-:Meeting04 a :Meeting;
-  :date "MEETING04DATE" ;
-  :meetingOrder "04" ;    
-  rdfs:label "Meeting 4"@en .
-
-:Meeting05 a :Meeting;
-  :date "MEETING05DATE" ;
-  :meetingOrder "05" ;    
-  rdfs:label "Meeting 5"@en .
-
-:Meeting06 a :Meeting;
-  :date "MEETING06DATE" ;
-  :meetingOrder "06" ;    
-  rdfs:label "Meeting 6"@en .
-
-:Meeting07 a :Meeting;
-  :date "MEETING07DATE" ;
-  :meetingOrder "07" ;    
-  rdfs:label "Meeting 7"@en .
-
-:Meeting08 a :Meeting;
-  :date "MEETING08DATE" ;
-  :meetingOrder "08" ;    
-  rdfs:label "Meeting 8"@en .
-
-:Meeting09 a :Meeting;
-  :date "MEETING09DATE" ;
-  :meetingOrder "09" ;    
-  rdfs:label "Meeting 9"@en .
-
-:Meeting10 a :Meeting;
-  :date "MEETING10DATE" ;
-  :meetingOrder "10" ;    
-  rdfs:label "Meeting 10"@en .
-
-:Meeting11 a :Meeting;
-  :date "MEETING11DATE" ;
-  :meetingOrder "11" ;    
-  rdfs:label "Meeting 11"@en .
-
-:Meeting12 a :Meeting;
-  :date "MEETING12DATE" ;
-  :meetingOrder "12" ;    
-  rdfs:label "Meeting 12"@en .
-
-:Meeting13 a :Meeting;
-  :date "MEETING13DATE" ;
-  :meetingOrder "13" ;    
-  rdfs:label "Meeting 13"@en .
-
-:FallBreak a :Holiday ;
-  :date "HOLIDAY1DATE" ;
-  :meetingOrder "14" ;    
-  rdfs:label "Thanksgiving Break: no meeting"@en .
-
-:Meeting14 a :Meeting;
-  :date "MEETING14DATE" ;
-  :meetingOrder "15" ;    
-  rdfs:label "Meeting 14"@en .
-
-:Meeting15 a :Meeting;
-  :date "MEETING15DATE" ;
-  :meetingOrder "16" ;    
-  rdfs:label "Meeting 15"@en .
-
-:501Lecture a :Activity ;
-  :during :Unit1-1 ;
-  :date "FIRSTLECTUREDATE" ;
-  rdfs:label "Presentation of the syllabus & core competencies"@en .
-  
-:DocumentsLecture a :Activity ;
-  :during :Unit1-1 ;
-  :date "DOCUMENTSLECTUREDATE" ;
-  rdfs:label "Lecture on documents"@en .
-
-:LectureStructures a :Activity ;
-  :during :Unit7-1 ;
-  :date "STRUCTURESLECTUREDATE" ;
-  rdfs:label "Lecture on Structuring and representing information"@en .
-
-:DiscussionClassification a :Activity ;
-  :during :Unit6-1 ;
-  :date "DISCUSSIONCLASSIFICATION" ;
-  rdfs:label "Student-led discussion of classification and folksonomy"@en .
-
-:Approaches a skos:Concept ;
-  :reqReading bib:Approaches ;
-  skos:prefLabel "Approaches to organizing information"@en.
-
-:Documents a skos:Concept ;
-  :reqReading bib:Documents ;
-  skos:prefLabel "Documents"@en.
-
-:Classification a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Classification and folksonomy"@en.
-
-:Approaches a skos:Concept ;
-  :reqReading bib:Approaches ;
-  skos:prefLabel "Approaches to organizing information"@en.
-
-:Ontologies a skos:Concept ;
-  :reqReading bib:Documents ;
-  skos:prefLabel "Ontologies"@en.
-
-:LinkedData a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Linked Open Data"@en.
-
-:Graphs a skos:Concept ;
-  :reqReading bib:Approaches ;
-  skos:prefLabel "RDF graphs"@en.
-
-:Serialization a skos:Concept ;
-  :reqReading bib:Documents ;
-  skos:prefLabel "RDF serializations"@en.
-
-:RDFS a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "RDF Schema"@en.
-
-:SKOS a skos:Concept ;
-  :reqReading bib:Approaches ;
-  skos:prefLabel "SKOS"@en.
-
-:Protege a skos:Concept ;
-  :reqReading bib:Documents ;
-  skos:prefLabel "The Protege ontology editor"@en.
-
-:OWL a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "OWL, the Web Ontology Language"@en.
-
-:Interoperability a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Interoperability"@en.
-
-:Expressive a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Expressive power"@en.
-
-:Tractable a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Tractable computations"@en.
-
-:Decidable a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Decidability"@en.
-
-:DomainAnalysis a skos:Concept ;
-  :reqReading bib:Classification ;
-  skos:prefLabel "Domain analysis"@en.
-
-:Realism a skos:Concept ;
-  :reqReading bib:Jubien ;
-  skos:prefLabel "Realism and alternatives"@en.
-
-
-:Asgt3 a :Assignment ;
-  rdfs:label "Assignment 3: Research Design Proposal"@en ;
-  :moodleURL hwk:MOODLEASGT3 ;
-  :sylSecId "ResearchProposal" ;
-  :hasDeadline :A3M1, :A3M2, :A3M3, :A3M4, :A3M5, :A3M6,:A3M7, :A3M8, :A3D1, :A3D2, :A3D3 .
-
-:Asgt2 a :Assignment ;
-  rdfs:label "Assignment 2 Information Needs/Information Seeking Behavior Essay"@en ;
-  :moodleURL hwk:MOODLEASGT2 ;
-  :sylSecId "InfoNeedsAsgt" ;
-  :hasDeadline :A2D1 .
-
-:Asgt1 a :Assignment ;
-  rdfs:label "Assignment 1 Collections Assessment and Comparison Essay"@en ;
-  :moodleURL hwk:MOODLEASGT1 ;
-  :sylSecId "CollectionsAsgt" ;
-  :hasDeadline :A1D1 .
-
-:A1D1 a :Deadline ;
-  rdfs:label "Assignment 1: Collections Assessment and Comparison"@en ;
-  :date "A1DUE" ;
-  :during :Unit2-2 .
-
-:A2D1 a :Deadline ;
-  rdfs:label "Assignment 1: Information Needs/Information Seeking Behavior Essay"@en ;
-  :date "A2DUE" ;
-  :during :Unit5-1 .
-
-:A3M1 a :Deadline ;
-  rdfs:label "Assignment 3 Milestone 1: Research question draft"@en ;
-  :date "M1DUE" ;
-  :during :Unit3-2 .
-
+:Conclusion a skos:Concept ;
+  skos:prefLabel "Wrapup and conclusion"@en.
