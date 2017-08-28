@@ -14,8 +14,8 @@ export M4PATH
 
 
 %.cldr : %.ttl 
-	./NewCalendar3.py $*.ttl
+	./NewCalendar2.py $*.ttl
 
 %.defs : %.ttl 
-	./NewCalendar3.py $*.ttl
+	./NewCalendar2.py $*.ttl
 

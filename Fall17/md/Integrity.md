@@ -12,3 +12,21 @@ Please be aware that the consequences for plagiarism or other forms of academic 
 will be severe. Students who violate university standards of academic integrity are
 subject to disciplinary action, including a reduced grade, failure in the course, and
 suspension or dismissal from the University.
+
+## On Adapting the Work of Others
+
+Criteria for grading homework assignments include (but are not limited
+to) creativity and the amount of original work demonstrated in the
+assignment. However, students are permitted to use and adapt the work
+of others, provided that the following guidelines are followed:
+
+- Use of other people's material must not infringe the copyright of
+  the original author, nor violate the terms of any licensing
+  agreement. Know and respect the principles of fair use with respect
+  to copyrighted material.
+
+- Students must scrupulously attribute the original source and author
+  of whatever material has been adapted for the assignment.  Summarize
+  (e.g. using source code comments) the changes or adaptations that
+  have been made. Make plain how much of the assignment represents
+  original work.

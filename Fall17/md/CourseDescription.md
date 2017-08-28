@@ -1,15 +1,10 @@
 # Course Description
 
-An introduction to the foundations of information modeling methods
-used in current information management applications. The specific methods
-considered include relational database design, conceptual modeling,
-and ontologies. The basic concepts underlying these
-methods are sets, relations, entities, and
-logics. Applications considered include relational database design
-and RDF/OWL semantic web languages. Set theory and logic are emphasized as the
-foundational frameworks for information modeling in general, and for
-contemporary web-based information management and delivery systems
-(including semantic web technologies) in particular.
+An introduction to formal ontology focusing on development and
+implementation issues and contemporary ontology software tools and
+languages. The ontology editor Protege will be used throughout and the
+representation of ontologies in W3C semantic web languages RDF(S) and
+OWL will be emphasized.
 
 
 ## Pre- and Co-requisites

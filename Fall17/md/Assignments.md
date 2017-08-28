@@ -1,58 +1,57 @@
-# Assignments and Evaluation
+# Basis for Grading and Evaluation
 
-All assignments are required for all students. All work must be
-completed in order to pass this class. Late or incomplete assignments
-will not be given full credit unless the student has contacted the
-instructor prior to the due date of the assignment (or in the case of
-emergencies, as soon as practicable). Completed, graded assignments may be repeated for an improved grade with no penalty other than 4.5/5 being the highest possible grade for repeated assignments. Further arrangements for makeup work will be made as needed.
+The most important standards for success in a class like this
+one are the educational goals that students bring to the class. Your
+instructor hopes that the activities, assignments, and presentations
+planned for this semester will be instrumental in your achieving the
+goals you set for yourself. Each exercise and assignment has been
+selected to provide an experience that will foster your own learning.
+Do not think that grading and evaluative feedback are meant as
+assesments of your success or failure in the class: they are provided
+as an incentive to engage with the material to the best of your
+ability, and as a diagnostic, to find you're not getting the benefits
+that the assignments should provide.
 
-**Assignments, Exercises & Grade Distribution:**
+Final grades will be calculated as follows:
 
-- Eleven graded assignments (due 1 hour before class meeting in the week they are due): 5 points each (55 points total).
-- Eleven ungraded exercises (due 25 hours before class meeting in the week they are due): 2 points each for completion (22 points total).
-- Four reading responses: 5 points each (20 points total).
-- Attendance and participation in class and on forums: 3 points. 
+- Graded homework assignments 90%
+- Class Participation: 10%
 
+## Evaluative and constructive feedback
 
+Students are entitled to both evaluative and constructive feedback on
+the assignments. Evaluative feedback reports how well a completed
+assignment satisfied the requirements for a grade.  Constructive
+feedback provides more detailed criticism of the work, and suggestions
+for improvement.
 
-**Grading Scale:**
+It is the policy in this class to provide
+evaluative feedback privately to students when an assignment is
+returned after grading. However, constructive feedback will be
+provided in a public forum (discussions in class or on message
+boards)
 
-| 94-100 = A
-| 90-93 = A-
-| 87-89 = B+
-| 83-86 = B
-| 80-82 = B-
-| 77-79 = C+
-| 73-76 = C
-| 70-72 = C-
-| 67-69 = D+
-| 63-66 = D
-| 60-62 = D-
-| 59 and below = F
+## Submitting Assignments to the Instructor
 
-**Reading Responses**
+All assignments must be submitted in machine
+readable form.  The instructors will discuss detailed requirements for
+file naming, packaging, and submission for each assignment.
 
-Up to twenty points (5 points each) are available for 4 reading responses, posted to the class discussion forum. You may submit more than 4 reading responses; the best 4 will be counted. Please identify them in the subject line as a *reading response* together with a topic description. 
+## Graded Assignments
 
-Canonical reading responses include:
+There will be six graded assignments:
 
-(1) *Critical questions*: carefully worded
-descriptions of an obstacle to understanding and applying concepts and
-methods covered in the assigned readings. These need to be more than
-a simple request for clarifying a term or idea. Each question should be
-one to three paragraphs in length, and should include:
+- Conforming FOAF profile in Turtle/N3 (due ASGT1DUE).
+- Serving linked data for humans and non-humans (due ASGT2DUE).
+- Domain analysis and proposal in natural language (due ASGT3DUE).
+- Class, subclass, and property definitions in OWL (due ASGT4DUE).
+- OWL Revision 1: Restrictions and inference (due ASGT5DUE).
+- OWL Revision 2, integration with other class vocabularies (due ASGT6DUE).
 
-- A one sentence summary of the question (citing the location of the anomalous passage in the reading);
-- A longer, lucid explanation of the question and the obstacle that it identifies;
-- A justification for why the question is important;
-- Some remarks on the context in which the question arose: how did you recognize that it was a problem?
+## Class Participation
 
-(2) Lucid responses: carefully worded responses to a colleague's critical question. These should include:
-
-A brief restatement of the question;
-A brief summary of your approach -- this could resolve the problem or show it in a new light;
-A longer, lucid explanation of your approach;
-A justification for your approach.
-
-We are open to other ways for you to engage with the reading and with your fellow classmates in the forums and we may discover other forms of reading response as we go.
-
+The class participation grade is based on consistent
+attendance, contribution to in-class and/or online discussions, and
+providing assistance to classmates outside of class. Please alert the
+instructor if a classmate has been of help to you outside of
+class.

@@ -19,7 +19,7 @@ if project:
         defsfilename = project + ".defs"
         defsfile = open(defsfilename,"w")
 
-onto = Namespace("http://courseweb.ischool.illinois.edu/lis/2017sp/is590od/")
+onto = Namespace("http://courseweb.ischool.illinois.edu/lis/2017fa/is590od/")
 event = Namespace("http://purl.org/NET/c4dm/event.owl#")
 tl = Namespace("http://purl.org/NET/c4dm/timeline.owl#")
 dc = Namespace("http://purl.org/dc/terms/")
@@ -63,7 +63,7 @@ wlist.sort()
 
 for d in wlist:
         myweek = myconcept = required = background  = ''
-	for o in mygraph.objects(weekstart[d], RDFS.label):
+	for o in mygraph.objects(weekstart[d], skos.prefLabel):
 	      myweek = str(o)
 	for o in mygraph.objects(weekstart[d], onto.date):
 	      weekdate = str(o)
