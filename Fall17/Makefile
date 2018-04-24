@@ -6,8 +6,8 @@
 M4PATH := ./md
 export M4PATH
 
-%.md : %.m4 %.cldr %.defs LIS501Spring2017.m4
-	m4 -DFORMATDEFS="wpformat.m4" -DMYDEFS="$*.m4" LIS501Spring2017.m4 > $*.md
+%.md : %.m4 %.cldr %.defs OntoDevFall2017.m4
+	m4 -DFORMATDEFS="wpformat.m4" -DMYDEFS="$*.m4" OntoDevFall2017.m4 > $*.md
 
 %.docx : %.md
 	pandoc -o $*.docx $*.md

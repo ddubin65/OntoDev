@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from rdflib import *
-import bibtexparser
+# import bibtexparser
 import sys
 import re
 
@@ -11,13 +11,13 @@ newdefs = {}
 regex1 = re.compile(r"([^.]+)\.ttl")
 mymatch = re.search(regex1,ttlfilename)
 if mymatch:
-        project = mymatch.group(1)
+   project = mymatch.group(1)
 
 if project:
-        cldrfilename = project + ".cldr"
-        cldrfile = open(cldrfilename,"w")
-        defsfilename = project + ".defs"
-        defsfile = open(defsfilename,"w")
+   cldrfilename = project + ".cldr"
+   cldrfile = open(cldrfilename,"w")
+   defsfilename = project + ".defs"
+   defsfile = open(defsfilename,"w")
 
 onto = Namespace("http://courseweb.ischool.illinois.edu/lis/2017fa/is590od/")
 event = Namespace("http://purl.org/NET/c4dm/event.owl#")
@@ -32,9 +32,9 @@ wlist = []  # List of weeks
 weekstart = {} # associate weeks with their starting date
 
 for s in mygraph.subjects(RDF.type, onto.Week):
-	for i in mygraph.objects(s,event.time):
-	        for a in mygraph.objects(i,tl.at):
-			    weekstart[str(a)] = s
+  for i in mygraph.objects(s,event.time):
+    for a in mygraph.objects(i,tl.at):
+       weekstart[str(a)] = s
 deadlines = {}
 
 for d in mygraph.subjects(RDF.type, onto.Deadline):
@@ -58,38 +58,38 @@ for d in mygraph.subjects(RDF.type, onto.Deadline):
                             
 cldrfile.write("# Topic Schedule\n")
 
-wlist = weekstart.keys()
+wlist = list(weekstart.keys())
 wlist.sort()
 
 for d in wlist:
-        myweek = myconcept = required = background  = ''
-	for o in mygraph.objects(weekstart[d], skos.prefLabel):
-	      myweek = str(o)
-	for o in mygraph.objects(weekstart[d], onto.date):
-	      weekdate = str(o)
-        cldrfile.write("\n")
-        cldrfile.write("### " +  myweek + ": " + weekdate + "\n")
-	for s in mygraph.objects(weekstart[d],dc.subject):
-	      for p in mygraph.objects(s,skos.prefLabel):
+   myweek = myconcept = required = background  = ''
+   for o in mygraph.objects(weekstart[d], skos.prefLabel):
+      myweek = str(o)
+   for o in mygraph.objects(weekstart[d], onto.date):
+      weekdate = str(o)
+   cldrfile.write("\n")
+   cldrfile.write("### " +  myweek + ": " + weekdate + "\n")
+   for s in mygraph.objects(weekstart[d],dc.subject):
+      for p in mygraph.objects(s,skos.prefLabel):
                       myconcept = str(p)
                       for q in mygraph.objects(s,onto.backgroundReading):
                               background = str(q)
                       for r in mygraph.objects(s,onto.reqReading):
                               required = str(r)
-              cldrfile.write("- " + myconcept + "\n")  
-              rstring = "    - **Required Readings:** "
-              if required:
-                cldrfile.write(rstring + " " + required + "\n")
-                cldrfile.write("\n")
-              dstring = ""
-              if weekstart[d] in deadlines.keys():
-                     cldrfile.write(dstring + " " + deadlines[weekstart[d]] + "\n")
-                     cldrfile.write("\n")
-              bstring = "    - **Further Background:** "
-              if background:
-                cldrfile.write(bstring + " " + background + "\n")
-                cldrfile.write("\n")
-              myconcept = background = required = ''
+      cldrfile.write("- " + myconcept + "\n")  
+      rstring = "    - **Required Readings:** "
+      if required:
+        cldrfile.write(rstring + " " + required + "\n")
+        cldrfile.write("\n")
+      dstring = ""
+      if weekstart[d] in deadlines.keys():
+        cldrfile.write(dstring + " " + deadlines[weekstart[d]] + "\n")
+        cldrfile.write("\n")
+      bstring = "    - **Further Background:** "
+      if background:
+        cldrfile.write(bstring + " " + background + "\n")
+        cldrfile.write("\n")
+      myconcept = background = required = ''
 
 if newdefs:
         for k in newdefs.keys():

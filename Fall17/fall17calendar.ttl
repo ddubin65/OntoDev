@@ -43,7 +43,7 @@
   event:time [ a tl:Interval ;
       tl:at "2017-09-03T00:00:00-5:00"^^xsd:dateTime ;
       tl:duration "P7D"^^xsd:duration] ;
--  :date "PRES2DATE" ;
+  :date "PRES2DATE" ;
   skos:prefLabel "Labor Day Holiday"@en .
 
 :Week3 a :Week ;

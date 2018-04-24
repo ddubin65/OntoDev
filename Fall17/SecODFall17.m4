@@ -1,6 +1,6 @@
-define(MYSECDATA, spring17a.md)dnl
-define(ASSIGNMENTS, spring17assignments.md)dnl
-define(CALENDAR, SecASpring17.cldr)dnl
+define(MYSECDATA, Fall17ODdata.md)dnl
+define(ASSIGNMENTS, Assignments.md)dnl
+define(CALENDAR, SecODFall17.cldr)dnl
 define(CONTACT1, Dubin.md)dnl
 define(CONTACT2, Empty.md)dnl
 define(CONTACT3, Empty.md)dnl
