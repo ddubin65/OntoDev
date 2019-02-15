@@ -9,7 +9,7 @@ define(INSTRUCTOR1, AboutDubin.md)dnl
 define(INSTRUCTOR2, Empty.md)dnl
 define(INSTRUCTOR3, Empty.md)dnl
 define(TEACHINGAST, Empty.md)dnl
-define(FINALSEC, # Readings)dnl
+define(FINALSEC, Empty.md)dnl
 define(PRES1DATE, August 28)dnl
 define(PRES2DATE, September 4)dnl
 define(PRES3DATE, September 11)dnl
@@ -26,4 +26,11 @@ define(PRES13DATE, November 20)dnl
 define(PRES14DATE, November 27)dnl
 define(PRES15DATE, December 4)dnl
 define(PRES16DATE, December 11)dnl
+define(ASGT1DUE, Septembr 18)dnl
+define(ASGT2DUE, October 3)dnl
+define(ASGT3DUE, October 20)dnl
+define(ASGT4DUE, November 10)dnl
+define(ASGT5DUE, December 3)dnl
+define(ASGT6DUE, December 22)dnl
+define(LIBRARYRESOURCES, http://www.library.illinois.edu/infosci/)dnl
 include(SecODFall17.defs)dnl

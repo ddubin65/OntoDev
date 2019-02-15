@@ -1,10 +1,9 @@
 # Course Description
 
-An introduction to formal ontology focusing on development and
-implementation issues and contemporary ontology software tools and
-languages. The ontology editor Protege will be used throughout and the
-representation of ontologies in W3C semantic web languages RDF(S) and
-OWL will be emphasized.
+An introduction to knowledge representation and information management
+for distributed deductive information systems. Covers domain analysis,
+the design of description logic based models, vocabulary integration,
+and current standards for linked data encoding and communication.
 
 
 ## Pre- and Co-requisites
